@@ -4,6 +4,12 @@ title: Introdução
 nav_order: 0
 ---
 
+# U.E.1 Cinemática
+
+A cinemática é o ramo da física que estuda os movimentos dos corpos sem, no entanto, se preocupar com a sua causa.
+
+Esta unidade de ensino esta dividida nas seguintes etapas.
+
 
 2.1 - Movimentos uni e bi-dimensionais de uma partícula;
 
