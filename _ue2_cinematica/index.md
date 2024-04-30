@@ -1,0 +1,16 @@
+---
+layout: default
+title: Cinematica
+nav_order: 2
+has_children: true
+---
+
+
+2.1 - Movimentos uni e bi-dimensionais de uma partícula;
+
+2.2 - movimento de translação de um corpo rígido;
+
+2.3 - movimento de rotação em torno de um eixo fixo de um corpo
+rígido; e,
+
+2.4 - analisar o movimento plano geral de um corpo rígido.
