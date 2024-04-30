@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Cinematica
-nav_order: 2
+title: Cinemática
+nav_order: 0
 has_children: true
 ---
 

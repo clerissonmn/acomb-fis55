@@ -1,7 +1,7 @@
 ---
 layout: default
+parent: Cinemática
 title: exercicios
-parent: Cinematica
 nav_order: 99
 ---
 
