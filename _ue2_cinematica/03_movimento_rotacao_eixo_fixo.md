@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Movimento 1D e 2D
-nav_order: 2
+title: Rotação de Corpo Rígido
+nav_order: 3
 ---
 
 2.3 - movimento de rotação em torno de um eixo fixo de um corpo

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Movimento 1D e 2D
+title: Translação de Corpo Rígido
 nav_order: 2
 ---
 
