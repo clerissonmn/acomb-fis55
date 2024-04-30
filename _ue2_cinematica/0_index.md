@@ -2,7 +2,6 @@
 layout: default
 title: Cinemática
 nav_order: 0
-has_children: true
 ---
 
 

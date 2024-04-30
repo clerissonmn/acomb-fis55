@@ -2,7 +2,7 @@
 layout: default
 parent: Cinemática
 title: Movimento 1D e 2D
-nav_order: 1
+nav_order: 2
 ---
 
-2.1 - Movimentos uni e bi-dimensionais de uma partícula;
+2.2 - movimento de translação de um corpo rígido;
