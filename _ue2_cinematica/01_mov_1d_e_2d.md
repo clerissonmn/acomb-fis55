@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Cinematica
+title: Movimento 1D e 2D
+parent: Cinematica
 nav_order: 1
-has_children: false
 ---
 
-Movimento 1d e 2d
