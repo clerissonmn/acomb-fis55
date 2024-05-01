@@ -1,12 +1,13 @@
 ---
-title: KaTeX Tests
-nav_order: 98
-math: katex
+layout: default
+title: MathJax Tests
+nav_order: 7
+math: mathjax
 ---
 
-# $$\KaTeX$$ Tests
+# MathJax Tests
 
-This page tests $$\LaTeX$$ rendering using $$\KaTeX$$ with
+This page tests $$\mathrm{\LaTeX}$$ rendering using MathJax v3 with
 [just-the-docs](https://github.com/pmarsceill/just-the-docs) as a remote theme.
 
 It was copied from a
@@ -37,26 +38,14 @@ Nested: $$M = \text{while $e^2$ do $c^2$ end}$$
 
 **Numbered equations**
 
-Automatic equation numbering is supported by KaTeX.
-
 $$
 \begin{equation}
 \int_0^x \sin(x) dx
+\label{eq:test}
 \end{equation}
 $$
 
-`\label` and `\eqref` are not yet implemented.
-Using manual tags and HTML links:
-
-$$
-\begin{equation}
-\int_0^x \sin(x) dx
-\htmlId{eq:test}{\tag{1}}
-\end{equation}
-$$
-
-Link to equation $$\href{#eq:test}{(1)}$$
-
+Link to equation $$\eqref{eq:test}$$
 
 **Blockquotes**
 
