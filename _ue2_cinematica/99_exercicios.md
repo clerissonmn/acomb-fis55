@@ -1,8 +1,7 @@
 ---
 layout: default
-parent: Cinemática
 title: exercicios
-nav_order: 99
+nav_order: 5
 ---
 
 # [U.E.2 Cinemática]
