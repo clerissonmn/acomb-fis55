@@ -2,9 +2,10 @@
 layout: default
 title: exercicios
 nav_order: 5
+math: katex
 ---
 
-# [U.E.2 Cinemática]
+# U.E.2 Cinemática
 
 ## Exercícios propostos
 
