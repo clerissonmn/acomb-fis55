@@ -11,7 +11,7 @@ math: katex
 
 ### Questão 1
 
-Se um navio percorreu uma distância de $$10 $$mn em $$5 h$$. Determine a velocidade do navio em km/h e em m/s;
+Se um navio percorreu uma distância de $$10 $$mn em $$5 h$$. Determine a velocidade do navio em km/h e em m/s.
 
 ### Questão 2
 
@@ -24,19 +24,18 @@ em m/s.
 
 ### Questão 3
 
-Um rebocador acelera uniformemente de uma velocidade inicial de $$5$$ m/s para uma
-velocidade final de 15 m/s em um espaço de 10 segundos. Qual é a aceleração do
-rebocador?
+Um rebocador acelera uniformemente de uma velocidade inicial de 5 m/s para uma
+velocidade final de 15 m/s em 1 min. Qual é a aceleração do rebocador?
 
 ### Questão 4
 
 Um navio de carga viaja a uma velocidade constante de 25 km/h por 6 horas.
-Quanto tempo leva para o navio percorrer 150 quilômetros e em milhas náuticas?
+Quanto tempo leva para o navio percorrer 150 milhas náuticas?
 
 ### Questão 5
 
 Um barco parte do repouso e acelera uniformemente até atingir uma velocidade de
-30 nós em 20 segundos. Qual é a aceleração do barco?
+30 nós em 2 min. Qual é a aceleração média do barco?
 
 ### Questão 6
 
@@ -55,8 +54,7 @@ minutos para completar a virada. Qual o espaço percorrido durante a manobra?
 
 Um navio está se aproximando de um ponto de ancoragem e precisa reduzir sua
 velocidade gradualmente antes de parar completamente. O navio está viajando
-inicialmente a uma velocidade de 20 nós e acelera uniformemente a uma taxa de -2
-nós por minuto^2 até parar. Se o navio leva 10 minutos para parar completamente,
+inicialmente a uma velocidade de 20 nós e acelera uniformemente a uma taxa de $$-2$$ $$nós/min^2$$ até parar. Se o navio leva 10 minutos para parar completamente,
 qual é a distância total percorrida durante essa desaceleração?
 
 ### Questão 9
