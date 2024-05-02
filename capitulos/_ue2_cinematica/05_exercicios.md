@@ -10,17 +10,11 @@ nav_order: 5
 
 ### Questão 1
 
-Se um navio percorreu uma distância de 10 mn em 5h Um navio viaja a uma
-velocidade constante de 20 nós por 4 horas determine:
-
-**1.1)** a velocidade do navio em km/h e em m/s;
-
-**1.2)** a distância percorrida pelo navio durante este trajeto escrita km/h e
-em m/s.
+Se um navio percorreu uma distância de $$10 $$mn em $$5 h$$. Determine a velocidade do navio em km/h e em m/s;
 
 ### Questão 2
 
-Um navio viaja a uma velocidade constante de 20 nós por 4 horas determine:
+Um navio viaja a uma velocidade constante de $$20$$ nós por $$4$$ horas determine:
 
 **2.1)** a velocidade do navio em km/h e em m/s.
 
@@ -29,7 +23,7 @@ em m/s.
 
 ### Questão 3
 
-Um rebocador acelera uniformemente de uma velocidade inicial de 5 m/s para uma
+Um rebocador acelera uniformemente de uma velocidade inicial de $$5$$ m/s para uma
 velocidade final de 15 m/s em um espaço de 10 segundos. Qual é a aceleração do
 rebocador?
 
