@@ -4,7 +4,7 @@ layout: home
 nav-order: 0
 ---
 
-# [FIS-55] Fisica Aplicada 1
+# Fisica Aplicada 1 - ACOM-B
 
 O proposito geral da disciplina é proporcionar ao você, aluno, os conhecimentos
 de base visando à compreensão e à aplicação dos conceitos dos fenômenos físicos
@@ -24,6 +24,6 @@ movimentos dos corpos.
     <dd>aaaa</dd>
     <dt>U.E.3 Dinâmica</dt>
     <dd>aaaa</dd>
-    <dt>U.E.3 Dinâmica</dt>
+    <dt>U.E.4 Energia</dt>
     <dd>aaaa</dd>
 </dl>
