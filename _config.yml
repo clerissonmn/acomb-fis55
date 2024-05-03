@@ -7,10 +7,10 @@ url: https://just-the-docs.github.io
 #aux_links:
 #    Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
-nav_external_links:
-  - title: "Blog do Prof. Clerisson"
-    url: https://clerissonmn.github.io
-    hide_icon: true
+#nav_external_links:
+#  - title: "Blog do Prof. Clerisson"
+#    url: https://clerissonmn.github.io
+#    hide_icon: true
     
 collections_dir: capitulos
 collections:
