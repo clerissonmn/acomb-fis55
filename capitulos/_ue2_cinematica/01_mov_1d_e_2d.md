@@ -12,27 +12,12 @@ Os _corpos rígidos_ estão livre para se mover em todas as direções, executan
 
 A seguir estão as conceituações técnicas dos termos utilizados no parágrafo anterior. de posse dessas defijições O aluno é recomendado a lê-lo novamente (quantas vezes necessárias) até se ter apreendido todo o sentido.
 
-
-
-## Conceitos Iniciais
-
-
 <dl>
-<dt>Móvel:<dt>
-<dd>De um modo geral, dá-se o nome de móvel a qualquer corpo em movimento.<dd>
-<dt>Partícula:<dt> 
-<dd>é qualquer corpo cujas dimensões geométricas sejam desprezíveis em face da sua trajetória. A partícula também é chamada de _ponto material_.<dd>
-<dt>Trajetória<dt>
-<dd>é a o desenhondo trajeto ou caminho que o móvel executou durante seu movimento. Por exemplo, em seu movimento em torno do Sol, a Terra é uma partícula executa uma trajetória praticamente circular.<dd>    
-
-Referencial: Para definir a posição de uma partícula, precisamos de um sistema de referência, ou, como também se diz de maneira mais cômoda, de um referencial. O referencial pode ser a Terra, o Sol, um corpo, um sistema de eixos etc.
-
-Repouso: A posição da partícula permanece invariável em relação ao referencial.
-
-Movimento: A posição da partícula é variável com o tempo, em relação ao referencial.
-
-Trajetória: é o lugar geométrico das posições ocupadas pelo ponto no decorrer do tempo. A trajetória pode ser retilínea ou curvilínea, dependendo do referencial considerado.
-
-Deslocamento: Quando o móvel muda de posição, ele sofre um deslocamento escalar, definido como a diferença entre os espaços final e inicial no intervalo de tempo considerado para a variação da posição.
-
-Distância percorrida: É uma grandeza que informa quanto à partícula efetivamente percorreu entre dois instantes. 
+<dt>Móvel</dt>
+<dd>De um modo geral, dá-se o nome de móvel a qualquer corpo em movimento.</dd>
+<dt>Partícula</dt> 
+<dd>Também chamado _ponto material_, é qualquer corpo cujas dimensões geométricas (seu famanho) sejam desprezíveis em comparando com sua trajetória. Por exemplo, para fins de planejamento de sua derrota,  o tamanho real do navio pode ser desprezado, considerando-o apenas como um ponto no espaço.</dd>
+<dt>Corpo Extenso</dt><dd>É o oposto de _ponto material_, ou seja, é todo corpo cujas dimensões (tamanho) devem ser levados em conta. Por exemplo, no movimento de atracão do navio, o espaço ocupado por ele durante a manobra deve ser levado em conta durante o planejamento.</dd>
+<dt>Trajetória</dt>
+<dd>é o desenho do trajeto ou caminho que o móvel executou (ou executará) durante seu movimento. No caso de um navio, a trajetória corresponde á sua _derrota_ que é como um registro ou plano que indica a direção e as etapas específicas que o navio segue para alcançar seu destino.</dd>
+</dl>
