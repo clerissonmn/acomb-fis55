@@ -14,12 +14,20 @@ url: https://just-the-docs.github.io
     
 collections_dir: capitulos
 collections:
+    ue1_estatica:
+        permalink: "/:collection/:path/"
+        output: true
+        
     ue2_cinematica:
         permalink: "/:collection/:path/"
         output: true
         
 just_the_docs:
     collections:
+        ue1_estatica:
+            name: "U.E.1 Estática"
+            nav_fold: true
+            
         ue2_cinematica:
             name: "U.E.2 Cinemática"
             nav_fold: true
