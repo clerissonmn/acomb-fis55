@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Estática, Força e _Força Resultante_
+title: Força e equilíbrio de translação
 nav_order: 1
+math: katex
 ---
 
-# Estática dos pontos materiais e sistemas equivalentes de forças
+# Força e equilíbrio de translação
 
  ## Força
  
