@@ -6,13 +6,10 @@ math: katex
 ---
 
 # Torque e equilibrio de rotação
-
  ## Torque
- 
  - defnição
  - representação
  - medida
- 
  ## Equilíbrio de rotação
  ## Aplicações
  ### Talha, etc
