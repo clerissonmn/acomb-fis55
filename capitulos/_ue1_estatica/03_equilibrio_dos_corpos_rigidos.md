@@ -6,7 +6,6 @@ math: katex
 ---
 
 # Equilíbrio dos corpos rígidos
-
 - definição de corpo rígido e exemplos
  
 ## Centroide e Baricentro de um corpo rígido
