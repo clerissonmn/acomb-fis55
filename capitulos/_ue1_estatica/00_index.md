@@ -6,7 +6,10 @@ nav_order: 0
 
 # U.E.1 Estática
 
-A estática é o ramo da física que se preocupa em identificar as forças e os torques que atuam em um determinado corpo e, a partir daí, calcular quais as resultantes que atuam sobre ele. Estes conhecimentos estão aplicados, por exemplo, na execução de testes de carga e no equilíbro dos corpos, em especial, no equilíbrio de flutuação do navio. A seguir está apresentado quais as partes do sumário estão sendo abordadas em cada capítulo desta unidade neste material:
+
+A Estática é o ramo da mecânica que estuda os corpos em equilíbrio, ou seja, corpos que estão em repouso ou em movimento uniforme. Na engenharia marítima, a estática importante para garantir a estabilidade e a integridade estrutural das embarcações e equipamentos a bordo. Os conceitos estudados pela estática podem ser aplicados, por exemplo, em testes de carga ou mesmo na flutuação do navio, assim garante que os oficiais de máquinas assegurem que as cargas e forças atuando nas estruturas do navio não causem falhas.
+
+A seguir está apresentado quais as partes do sumário estão sendo abordadas em cada capítulo desta unidade neste material:
 
 <dl>
 <dt>Força e quilíbrio de translação</dt>
