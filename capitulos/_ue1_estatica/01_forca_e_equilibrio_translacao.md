@@ -5,18 +5,20 @@ nav_order: 1
 math: katex
 ---
 
-# Força e equilíbrio de translação
+# 1. Força e equilíbrio de translação
 
 Dá-se o nome de força a qualquer interação entre corpos. Quando não equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu comportamento, isto é, seu estado de movimento. É importante ressaltar que não se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo humano executa uma força, isso implica em fazer um certo esforço; entretanto, o conceito de força é mais abrangente, pois mesmo na ausência de interação humana, dois objetos podem exercer força entre si. Por exemplo, quando uma caixa está efetivamente aplicando força (tracionando) no cabo do guindaste que a está levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No exemplo anterior, a força da gravidade, por sua vez, está aplicando força no caixote, já que o está puxando em direção ao chão. Note que, neste momento, está-se interessado na definição de força e, durante este capítulo, serão estudadas em detalhes situações como esta.
 
-No Sistema Internacional (SI) a unidade de medida é o Newton (N). Existem, no entanto, outras unidades como _kgf (kilograma força)_ e o _dyna (dyn)_ que não estão no _SI_. O instrumento de medida de força é o Dinamômetro.
+{: .importante }
+
+> No Sistema Internacional (SI) a unidade de medida é o Newton (N). Existem, no entanto, outras unidades como _kgf (kilograma força)_ e o _dyna (dyn)_ que não estão no _SI_. O instrumento de medida de força é o Dinamômetro.
 
 
- ## Forças típicas
+## 1.1 Forças típicas
  
  Algumas forças que são provenientes de situações e agentes específicos e, por esse motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem particular importância para o presente curso.
  
-### Peso
+### 1.1.1 Peso
  
  Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_, propôs que essa força é oriunda da massa dos corpos _i.e_, todos os corpos que possuem massa apresentam força da gravidade mas somente aquelas massas que são muito grandes é que produzem efeitos observáveis. Por esse motivo a força gravitacional só é perceptível qual os corpos tem o tamanho comparável ao de planetas. Numericamente podemos calcular a força peso da seguinte forma:
  
@@ -26,61 +28,39 @@ P = M \times g
 \end{equation}
 $$
  
- em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$)
- 
-{: .cal1-title }
-> callout 1
+em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$).
+
+{: .exemplo_resolvido-title }
+> Exemplo Resolvido 1.01
 > 
-> a paragraph
-
-{: .cal2-title }
-> callout 2
+> Durante um teste de carga um guindaste de bordo suspende uma caixa de 1 Ton (tonelada). Calcule qual o peso da caixa (em Newton) que cabo do guindaste está suportando.
+>
+> **Resposta**
+>
+> A massa da caixa é $$M = 1 ton = 1000 kg$$. Dessa forma o peso é calculado fazendo 
+>
+> $$P = M \times g$$$
 > 
-> a paragraph
-
-{: .cal3-title }
-> callout 3
+> $$P = 1000 \times 10$$$
 > 
-> a paragraph
+> $$P = 10.000 N$$$
 
-{: .cal4-title }
-> callout 4
-> 
-> a paragraph
-
-{: .cal5-title }
-> callout 5
-> 
-> a paragraph
-
-{: .cal6-title }
-> callout 6
-> 
-> a paragraph
-
-{: .cal7-title }
-> callout 7
-> 
-> a paragraph
-
-
-
- 
- 
 ### Tração
- É a força que é transmitida ao longo de um material que sustenta alguma carga, como uma corda, cabo ou corrente, quando é puxado por forças que agem em suas extremidades. Essa força sempre atua ao longo do eixo do material e puxa o objeto ao qual está conectada. De uma forma simples, tração é aquela que __informa__ qual o valor da força que está sendo aplicada na estrutura que está sendo tracionada. 
+
+É a força que é transmitida ao longo de um material que sustenta alguma carga, como uma corda, cabo ou corrente, quando é puxado por forças que agem em suas extremidades. Essa força sempre atua ao longo do eixo do material e puxa o objeto ao qual está conectada. De uma forma simples, tração é aquela que __informa__ qual o valor da força que está sendo aplicada na estrutura que está sendo tracionada. 
 
 Um guindaste a bordo de um navio, por exemplo, utiliza um cabo de aço para levantar cargas pesadas. A força de tração no cabo é a força que o cabo exerce sobre a carga para levantá-la. Se o guindaste levanta uma carga de 10.000 N, a força de tração no cabo será de 10.000 N.
 
 ### Normal
- É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante defininir que essa força é sempre perpendicular à superfície.
+
+É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante defininir que essa força é sempre perpendicular à superfície.
 
 Como exemplo pode-se tomar um motor de propulsão está montado em uma plataforma de metal dentro da casa de máquinas. A força normal é a força que a plataforma exerce sobre o motor, suportando seu peso. Se o motor pesa 5000 N, a força normal que a plataforma exerce sobre o motor é também de 5000 N.
 
 ### Atrito
- É a força que tende a dificultar o movimento de arrastar dos corpos ou superfícies. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. O atrito pode ser estático (dificultando o início do movimento) ou cinético (dificultando o movimento).
+É a força que tende a dificultar o movimento de arrastar dos corpos ou superfícies. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. O atrito pode ser estático (dificultando o início do movimento) ou cinético (dificultando o movimento).
  
- O cálculo da força de atrito ($$f{fat}$$) é feito multiplicando a força normal ($$N$$) pelo coeficiente de atrito ($$\mu$$), ou seja, 
+O cálculo da força de atrito ($$f{fat}$$) é feito multiplicando a força normal ($$N$$) pelo coeficiente de atrito ($$\mu$$), ou seja, 
  
  $$f_{fat} = \mu \times N $$
 
@@ -193,3 +173,4 @@ Empuxo da água = 500000 N (para cima)
 Para um oficial de máquinas, garantir que todos os sistemas estejam em equilíbrio de translação é crucial para evitar movimentos indesejados que podem levar a falhas mecânicas ou acidentes. Isso inclui verificar a correta instalação e fixação de máquinas e equipamentos, monitorar as forças atuantes durante a operação e manutenção, e assegurar que as cargas estejam distribuídas de forma balanceada.
 
 Compreender e aplicar o conceito de equilíbrio de translação ajuda a manter a integridade estrutural e a segurança operacional a bordo de um navio.
+
