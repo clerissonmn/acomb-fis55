@@ -7,66 +7,58 @@ math: katex
 
 # Força e equilíbrio de translação
 
-
 Dá-se o nome de força a qualquer interação entre corpos. Quando não equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu comportamento, isto é, seu estado de movimento. É importante ressaltar que não se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo humano executa uma força, isso implica em fazer um certo esforço; entretanto, o conceito de força é mais abrangente, pois mesmo na ausência de interação humana, dois objetos podem exercer força entre si. Por exemplo, quando uma caixa está efetivamente aplicando força (tracionando) no cabo do guindaste que a está levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No exemplo anterior, a força da gravidade, por sua vez, está aplicando força no caixote, já que o está puxando em direção ao chão. Note que, neste momento, está-se interessado na definição de força e, durante este capítulo, serão estudadas em detalhes situações como esta.
 
 No Sistema Internacional (SI) a unidade de medida é o Newton (N). Existem, no entanto, outras unidades como _kgf (kilograma força)_ e o _dyna (dyn)_ que não estão no _SI_. O instrumento de medida de força é o Dinamômetro.
 
 
- ### Forças típicas
+ ## Forças típicas
  
  Algumas forças que são provenientes de situações e agentes específicos e, por esse motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem particular importância para o presente curso.
  
- #### Peso
+### Peso
  
  Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_, propôs que essa força é oriunda da massa dos corpos _i.e_, todos os corpos que possuem massa apresentam força da gravidade mas somente aquelas massas que são muito grandes é que produzem efeitos observáveis. Por esse motivo a força gravitacional só é perceptível qual os corpos tem o tamanho comparável ao de planetas. Numericamente podemos calcular a força peso da seguinte forma:
  
- $$
- \begin{equation}
-    P = M.g
- \end{equation}
- $$.
+$$
+\begin{equation}
+P = M \times g
+\end{equation}
+$$
  
-  em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$)
+ em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$)
  
 {: .cal1-title }
-
 > callout 1
 > 
 > a paragraph
 
 {: .cal2-title }
-
 > callout 2
 > 
 > a paragraph
 
 {: .cal3-title }
-
 > callout 3
 > 
 > a paragraph
 
 {: .cal4-title }
-
 > callout 4
 > 
 > a paragraph
 
 {: .cal5-title }
-
 > callout 5
 > 
 > a paragraph
 
 {: .cal6-title }
-
 > callout 6
 > 
 > a paragraph
 
 {: .cal7-title }
-
 > callout 7
 > 
 > a paragraph
@@ -75,17 +67,17 @@ No Sistema Internacional (SI) a unidade de medida é o Newton (N). Existem, no e
 
  
  
- #### Tração
+### Tração
  É a força que é transmitida ao longo de um material que sustenta alguma carga, como uma corda, cabo ou corrente, quando é puxado por forças que agem em suas extremidades. Essa força sempre atua ao longo do eixo do material e puxa o objeto ao qual está conectada. De uma forma simples, tração é aquela que __informa__ qual o valor da força que está sendo aplicada na estrutura que está sendo tracionada. 
 
 Um guindaste a bordo de um navio, por exemplo, utiliza um cabo de aço para levantar cargas pesadas. A força de tração no cabo é a força que o cabo exerce sobre a carga para levantá-la. Se o guindaste levanta uma carga de 10.000 N, a força de tração no cabo será de 10.000 N.
 
- #### Normal
+### Normal
  É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante defininir que essa força é sempre perpendicular à superfície.
 
 Como exemplo pode-se tomar um motor de propulsão está montado em uma plataforma de metal dentro da casa de máquinas. A força normal é a força que a plataforma exerce sobre o motor, suportando seu peso. Se o motor pesa 5000 N, a força normal que a plataforma exerce sobre o motor é também de 5000 N.
 
- #### Atrito
+### Atrito
  É a força que tende a dificultar o movimento de arrastar dos corpos ou superfícies. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. O atrito pode ser estático (dificultando o início do movimento) ou cinético (dificultando o movimento).
  
  O cálculo da força de atrito ($$f{fat}$$) é feito multiplicando a força normal ($$N$$) pelo coeficiente de atrito ($$\mu$$), ou seja, 
@@ -96,13 +88,13 @@ Algumas vezes o atrito é interessante, outras vezes não. Por exemplo [.......]
 
 Exemplo Prático:
 Ao realizar a manutenção de um motor, o oficial de máquinas precisa desmontar partes que estão aparafusadas. O atrito entre as roscas do parafuso e a peça de metal impede que o parafuso se mova facilmente. Para soltar o parafuso, o oficial deve aplicar uma força maior para vencer o atrito estático.
- #### Elástica
+### Elástica
  
  A força elástica é a força exercida por um material elástico, como uma mola ou um elástico, quando ele é deformado. Essa força obedece à Lei de Hooke, que afirma que a força é proporcional à deformação (F = -kx, onde k é a constante elástica e x é a deformação).
 
 Os amortecedores em um sistema de suspensão de um motor marinho usam molas para absorver os choques e vibrações. Quando o motor está em funcionamento, as molas se deformam para absorver a energia dos movimentos, exercendo uma força elástica que ajuda a manter a estabilidade do motor e a reduzir o desgaste dos componentes.
  
- ## Decomposição de forças
+## Decomposição de forças
  A decomposição de forças é o processo de dividir uma força em componentes perpendiculares, geralmente em direções horizontais e verticais. Isso é útil para simplificar a análise de forças que atuam em diferentes direções.
 
 Exemplo Prático:
@@ -123,7 +115,8 @@ y
  ).
  
 
- ## Força Resultante
+## Força Resultante
+
  A força resultante é a soma vetorial de todas as forças atuando sobre um corpo. Para que um corpo esteja em equilíbrio translacional, a força resultante deve ser zero.
 
 Exemplo Prático:
@@ -132,7 +125,8 @@ Imagine um navio atracado com duas amarras: uma força de 5000 N puxando o navio
 Quando as forças atuantes no corpo estão nas duas direções ($x$ e $y$), o cálculo da força resultante deve ser feito de forma separada. Assim encontraremos duas respostas: uma força resultante em $x$ ($F{R_x}$) e outra em $y$ ($F{R_y}$). Se uma ou mais forças não estiverem alinhadas com $x$ ou $y$, deve-se fazer a decomposição.
 
  
- ## Equilíbrio de Translação
+## Equilíbrio de Translação
+
 O equilíbrio de translação ocorre quando a soma vetorial de todas as forças atuando sobre um corpo é zero, resultando em um estado onde o corpo não acelera linearmente. Em outras palavras, para um corpo estar em equilíbrio de translação, ele deve estar em repouso ou se movendo com velocidade constante em linha reta.
 Para um oficial de máquinas, compreender o equilíbrio de translação é fundamental para garantir a segurança e a eficiência das operações a bordo de um navio. Manter o equilíbrio de translação evita movimentos indesejados das máquinas e equipamentos, que podem causar danos ou acidentes.
 Considere um motor de propulsão montado em uma base dentro da casa de máquinas. O peso do motor (força devido à gravidade) é 5000 N e é equilibrado por forças normais de reação da base. Para que o motor esteja em equilíbrio de translação, a soma das forças verticais deve ser zero.
