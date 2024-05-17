@@ -274,13 +274,13 @@ The `alt` string doesn't work
 > 
 > a paragraph
 
-{: .nota-title }
-> Nota
+{: .importante-title }
+> Importante
 > 
 > a paragraph
 
-{: .cal6-title }
-> callout 6
+{: .unidades-title }
+> Unidades
 > 
 > a paragraph
 
