@@ -253,3 +253,38 @@ The following works only when the matrix is all on one line, due to a kramdown l
 The `alt` string doesn't work
 
 ![$$a^2+b^2=c^2$$](https://raw.githubusercontent.com/atom-community/markdown-preview-plus/master/imgs/mpp-full-res-invert.png)
+
+{: .cal1-title }
+> callout 1
+> 
+> a paragraph
+
+{: .cal2-title }
+> callout 2
+> 
+> a paragraph
+
+{: .exemplo_resolvido-title }
+> Exemplo Resolvido
+> 
+> a paragraph
+
+{: .cal4-title }
+> callout 4
+> 
+> a paragraph
+
+{: .nota-title }
+> Nota
+> 
+> a paragraph
+
+{: .cal6-title }
+> callout 6
+> 
+> a paragraph
+
+{: .cal7-title }
+> callout 7
+> 
+> a paragraph
