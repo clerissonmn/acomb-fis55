@@ -37,7 +37,7 @@ em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _acele
 >
 > **Resposta**
 >
-> A massa da caixa é $$M = 1 ton = 1000 kg$$. 
+> A massa da caixa é $$M = 1 \text{ton} = 1\,000 kg$$. 
 > 
 > Dessa forma o peso é calculado fazendo 
 >
@@ -45,13 +45,23 @@ em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _acele
 > 
 > $$P = 1\,000 \times 10$$
 > 
-> $$P = 10\,000 N$$$
+> $$P = 10\,000 N$$
 
 ### Tração
 
-É a força que é transmitida ao longo de um material que sustenta alguma carga, como uma corda, cabo ou corrente, quando é puxado por forças que agem em suas extremidades. Essa força sempre atua ao longo do eixo do material e puxa o objeto ao qual está conectada. De uma forma simples, tração é aquela que __informa__ qual o valor da força que está sendo aplicada na estrutura que está sendo tracionada. 
+É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. Essa força sempre atua ao longo do eixo do material e, de uma forma simples, "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
-Um guindaste a bordo de um navio, por exemplo, utiliza um cabo de aço para levantar cargas pesadas. A força de tração no cabo é a força que o cabo exerce sobre a carga para levantá-la. Se o guindaste levanta uma carga de 10.000 N, a força de tração no cabo será de 10.000 N.
+Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A força de tração é a quela força "sentida" pelo cabo do guindaste ao ser pendurada esta carga. 
+
+
+{: .exemplo_resolvido-title }
+> Exemplo Resolvido 1.02
+>
+> Qual a força de tração sentida pelo cabo de aço no exemplo abterior (1.01)?
+> 
+> **Resposta**:
+>
+> O cabo do guindaste está suportando todo o peso da Caixa, logo a força de tração neste também é $$10/,000 N$$.
 
 ### Normal
 
