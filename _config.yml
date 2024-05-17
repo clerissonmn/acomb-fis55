@@ -31,3 +31,29 @@ just_the_docs:
         ue2_cinematica:
             name: "U.E.2 Cinemática"
             nav_fold: true
+            
+callouts:
+  cal1:
+    title: cal1
+    color: red
+  cal2:
+    title: cal2
+    color: grey-lt
+  cal3:
+    title: cal3
+    color: grey-dk
+  cal4:
+    title: cal4
+    color: purple
+  cal5:
+    title: cal5
+    color: blue
+  cal6:
+    title: cal6
+    color: green
+  cal7:
+    title: cal7
+    color: yellow
+
+    
+    
