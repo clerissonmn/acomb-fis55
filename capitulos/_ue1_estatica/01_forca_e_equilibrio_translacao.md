@@ -7,7 +7,7 @@ math: katex
 
 # 1. Força e equilíbrio de translação
 
-Dá-se o nome de força a qualquer interação entre corpos. Quando não equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu comportamento, isto é, seu estado de movimento. É importante ressaltar que não se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo humano executa uma força, isso implica em fazer um certo esforço; entretanto, o conceito de força é mais abrangente, pois mesmo na ausência de interação humana, dois objetos podem exercer força entre si. Por exemplo, quando uma caixa está efetivamente aplicando força (tracionando) no cabo do guindaste que a está levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No exemplo anterior, a força da gravidade, por sua vez, está aplicando força no caixote, já que o está puxando em direção ao chão. Note que, neste momento, está-se interessado na definição de força e, durante este capítulo, serão estudadas em detalhes situações como esta.
+Dá-se o nome de força a qualquer interação entre corpos. Quando não equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu comportamento, isto é, seu estado de movimento. É importante ressaltar que não se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo humano executa uma força, isso implica em fazer um certo esforço; entretanto, o conceito de força é mais abrangente, pois mesmo na ausência de interação humana, dois objetos podem exercer força entre si. Por exemplo, uma caixa está efetivamente aplicando força (tracionando) no cabo do guindaste que a está levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No exemplo anterior, a força da gravidade, por sua vez, está aplicando força no caixote, já que está puxando o mesmo em direção ao chão.
 
 {: .importante }
 
@@ -16,7 +16,7 @@ Dá-se o nome de força a qualquer interação entre corpos. Quando não equilib
 
 ## 1.1 Forças típicas
  
- Algumas forças que são provenientes de situações e agentes específicos e, por esse motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem particular importância para o presente curso.
+ Algumas forças são provenientes de situações e agentes específicos e, por esse motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem particular importância para o presente curso.
  
 ### 1.1.1 Peso
  
@@ -37,13 +37,15 @@ em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _acele
 >
 > **Resposta**
 >
-> A massa da caixa é $$M = 1 ton = 1000 kg$$. Dessa forma o peso é calculado fazendo 
+> A massa da caixa é $$M = 1 ton = 1000 kg$$. 
+> 
+> Dessa forma o peso é calculado fazendo 
 >
-> $$P = M \times g$$$
+> $$P = M \times g$$
 > 
-> $$P = 1000 \times 10$$$
+> $$P = 1\,000 \times 10$$
 > 
-> $$P = 10.000 N$$$
+> $$P = 10\,000 N$$$
 
 ### Tração
 
