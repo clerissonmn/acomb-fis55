@@ -32,28 +32,36 @@ just_the_docs:
             name: "U.E.2 Cinemática"
             nav_fold: true
             
+# callouts_opacity: 0.3            
 callouts:
   cal1:
     title: cal1
     color: red
+    
   cal2:
     title: cal2
     color: grey-lt
-  cal3:
-    title: cal3
+    
+  exemplo_resolvido:
+    title: Exemplo Resolvido
     color: grey-dk
+    
   cal4:
     title: cal4
     color: purple
-  cal5:
-    title: cal5
+    
+  importante:
+    title: Importante
     color: blue
+    
   cal6:
     title: cal6
     color: green
+    
   cal7:
     title: cal7
     color: yellow
+    
 
     
     
