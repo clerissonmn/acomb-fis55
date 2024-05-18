@@ -11,7 +11,7 @@ Dá-se o nome de força a qualquer interação entre corpos. Quando não equilib
 
 {: .note }
 
-> No Sistema Internacional (SI) a unidade de medida é o Newton (N).
+> No Sistema Internacional (SI) a unidade de medida de forç é o Newton (N).
 
 ## 1.1 Forças típicas
  
@@ -28,7 +28,7 @@ P = M \times g
 \end{equation}
 $$
  
-Na equação ($$\eqref{eq:peso$$}) temos que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$).
+Na equação $$\eqref{eq:peso}$$ temos que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$).
 
 Dessa forma, pode-se entender que $$10N$$ corresponde ao peso de uma massa de $$1kg$$ pois 
 
