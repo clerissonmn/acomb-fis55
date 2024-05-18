@@ -2,7 +2,7 @@
 layout: default
 title: Força e equilíbrio de translação
 nav_order: 1
-math: mathjax
+math: katex
 ---
 
 # 1. Força e equilíbrio de translação
@@ -11,7 +11,7 @@ Dá-se o nome de força a qualquer interação entre corpos. Quando não equilib
 
 {: .note }
 
-> No Sistema Internacional (SI) a unidade de medida de forç é o Newton (N).
+> No Sistema Internacional (SI) a unidade de medida de força é o Newton (N).
 
 ## 1.1 Forças típicas
  
@@ -24,11 +24,10 @@ Dá-se o nome de força a qualquer interação entre corpos. Quando não equilib
 $$
 \begin{equation}
 P = M \times g
-\label{eq:peso}
 \end{equation}
 $$
  
-Na equação $$\eqref{eq:peso}$$ temos que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$).
+Em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$).
 
 Dessa forma, pode-se entender que $$10N$$ corresponde ao peso de uma massa de $$1kg$$ pois 
 
@@ -36,7 +35,7 @@ $$
 P = 1 \times 10 = 10 \, N
 $$.
 
-Dessa forma chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso de uma massa de $$100g$$ (faça as contas).
+Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso de uma massa de $$100g$$ (faça as contas).
 
 {: .cuidado }
 > Neste ponto podemos perceber que _massa_ e _peso_ são duas grandezas diferentes. A massa é a quantidade de matéria (quilogramas) no corpo e o peso é a **força** (em Newton) com que a gravidade puxa essa massa para o chão. Nesse contexto pode-se entender que uma balança, por exemplo, nao mede o _peso_ mas sim a _massa_ de um corpo.
@@ -62,25 +61,34 @@ Dessa forma chegamos a conclusão de que $$1N$$ de força equivale a carregar o 
 
 ### Tração
 
-É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. Essa força sempre atua ao longo do eixo do material e, de uma forma simples, "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
+É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do material e, falando de uma forma simples, ela "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
-Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A força de tração é a quela força "sentida" pelo cabo do guindaste ao ser pendurada esta carga. 
+Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A força de tração é a quela força "sentida" pelo cabo do guindaste ao ser pendurada a carga. 
 
 
 {: .exemplo_resolvido-title }
 > Exemplo Resolvido 1.02
 >
-> Qual a força de tração sentida pelo cabo de aço no exemplo abterior (1.01)?
+> Qual a força de tração sentida pelo cabo de aço no exemplo 1.01
 > 
 > **Resposta**:
 >
-> O cabo do guindaste está suportando todo o peso da Caixa, logo a força de tração neste também é $$10/,000 N$$.
+> O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
 
 ### Normal
 
-É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante defininir que essa força é sempre perpendicular à superfície.
+É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante ressaltar que essa força é sempre perpendicular à superfície, ou seja, sempre forma $$90^{\circ}$$.
 
-Como exemplo pode-se tomar um motor de propulsão está montado em uma plataforma de metal dentro da casa de máquinas. A força normal é a força que a plataforma exerce sobre o motor, suportando seu peso. Se o motor pesa 5000 N, a força normal que a plataforma exerce sobre o motor é também de 5000 N.
+{: .exemplo_resolvido-title }
+> Exemplo Resolvido 1.03
+> 
+> Um motor está montado em uma plataforma de metal dentro da casa de máquinas. A força normal. Calcule a força que a plataforma exerce sobre o motor.
+>
+> **Resposta**
+> Se o motor pesa $$5\,000 N$$, a força normal que a plataforma exerce sobre o motor é também de $$5\,000 N$$.
+
+{: .note }
+> Em problemas que envolvam balanças, a força normal é igual a leitura da balança. 
 
 ### Atrito
 É a força que tende a dificultar o movimento de arrastar dos corpos ou superfícies. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. O atrito pode ser estático (dificultando o início do movimento) ou cinético (dificultando o movimento).
