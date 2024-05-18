@@ -9,9 +9,21 @@ math: katex
 
 Dá-se o nome de força a qualquer interação entre corpos. Quando não equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu comportamento, isto é, seu estado de movimento. É importante ressaltar que não se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo humano executa uma força, isso implica em fazer um certo esforço; entretanto, o conceito de força é mais abrangente, pois mesmo na ausência de interação humana, dois objetos podem exercer força entre si. Por exemplo, uma caixa está efetivamente aplicando força (tracionando) no cabo do guindaste que a está levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No exemplo anterior, a força da gravidade, por sua vez, está aplicando força no caixote, já que está puxando o mesmo em direção ao chão.
 
-{: .importante }
+{: .unidades }
 
-> No Sistema Internacional (SI) a unidade de medida é o Newton (N). Existem, no entanto, outras unidades como _kgf (kilograma força)_ e o _dyna (dyn)_ que não estão no _SI_. O instrumento de medida de força é o Dinamômetro.
+> No Sistema Internacional (SI) a unidade de medida é o Newton (N). 
+
+{: . importante-title }
+
+> Importante
+> 
+> Existem outras unidades de medida de força que não estão no S.I. mas que são comuns em situações a bordo ou em terra:
+> 
+> - _Quiligrama-força (kgf)_: Equivale ao peso (veja abaixo
+> 
+> -
+> 
+> - _dyna(dyn)_ que não estão no _SI_. O instrumento de medida de força é o Dinamômetro.
 
 
 ## 1.1 Forças típicas
