@@ -2,29 +2,16 @@
 layout: default
 title: Força e equilíbrio de translação
 nav_order: 1
-math: katex
+math: mathjax
 ---
 
 # 1. Força e equilíbrio de translação
 
 Dá-se o nome de força a qualquer interação entre corpos. Quando não equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu comportamento, isto é, seu estado de movimento. É importante ressaltar que não se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo humano executa uma força, isso implica em fazer um certo esforço; entretanto, o conceito de força é mais abrangente, pois mesmo na ausência de interação humana, dois objetos podem exercer força entre si. Por exemplo, uma caixa está efetivamente aplicando força (tracionando) no cabo do guindaste que a está levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No exemplo anterior, a força da gravidade, por sua vez, está aplicando força no caixote, já que está puxando o mesmo em direção ao chão.
 
-{: .unidades }
+{: .note }
 
-> No Sistema Internacional (SI) a unidade de medida é o Newton (N). 
-
-{: . importante-title }
-
-> Importante
-> 
-> Existem outras unidades de medida de força que não estão no S.I. mas que são comuns em situações a bordo ou em terra:
-> 
-> - _Quiligrama-força (kgf)_: Equivale ao peso (veja abaixo
-> 
-> -
-> 
-> - _dyna(dyn)_ que não estão no _SI_. O instrumento de medida de força é o Dinamômetro.
-
+> No Sistema Internacional (SI) a unidade de medida é o Newton (N).
 
 ## 1.1 Forças típicas
  
@@ -32,15 +19,28 @@ Dá-se o nome de força a qualquer interação entre corpos. Quando não equilib
  
 ### 1.1.1 Peso
  
- Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_, propôs que essa força é oriunda da massa dos corpos _i.e_, todos os corpos que possuem massa apresentam força da gravidade mas somente aquelas massas que são muito grandes é que produzem efeitos observáveis. Por esse motivo a força gravitacional só é perceptível qual os corpos tem o tamanho comparável ao de planetas. Numericamente podemos calcular a força peso da seguinte forma:
+ Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_, propôs que essa força é oriunda da massa dos corpos isto é, todos os corpos que possuem massa estão sujeitas ã força da gravidade mas somente aquelas massas que são muito grandes é que produzem efeitos observáveis. Por esse motivo a força gravitacional só é perceptível quando os corpos tem o tamanho comparável ao de planetas. Podemos calcular a força peso da seguinte forma:
  
 $$
 \begin{equation}
 P = M \times g
+\label{eq:peso}
 \end{equation}
 $$
  
-em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$).
+Na equação ($$\eqref{eq:peso$$}) temos que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _aceleração da gravidade_. Importante, neste momento, é apenas saber seu valor numérico ($$10$$) e, posteriormente (na U.E.2) ficará mais claro seu significado e sua unidade ($$m/s^2$$).
+
+Dessa forma, pode-se entender que $$10N$$ corresponde ao peso de uma massa de $$1kg$$ pois 
+
+$$
+P = 1 \times 10 = 10 \, N
+$$.
+
+Dessa forma chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso de uma massa de $$100g$$ (faça as contas).
+
+{: .cuidado }
+> Neste ponto podemos perceber que _massa_ e _peso_ são duas grandezas diferentes. A massa é a quantidade de matéria (quilogramas) no corpo e o peso é a **força** (em Newton) com que a gravidade puxa essa massa para o chão. Nesse contexto pode-se entender que uma balança, por exemplo, nao mede o _peso_ mas sim a _massa_ de um corpo.
+
 
 {: .exemplo_resolvido-title }
 > Exemplo Resolvido 1.01
@@ -58,6 +58,7 @@ em que $$M$$ é a massa do corpo e  $$g = 10 m/s^2$$. $$g$$ é chamada de _acele
 > $$P = 1\,000 \times 10$$
 > 
 > $$P = 10\,000 N$$
+
 
 ### Tração
 

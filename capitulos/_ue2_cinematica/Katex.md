@@ -254,8 +254,8 @@ The `alt` string doesn't work
 
 ![$$a^2+b^2=c^2$$](https://raw.githubusercontent.com/atom-community/markdown-preview-plus/master/imgs/mpp-full-res-invert.png)
 
-{: .cal1-title }
-> callout 1
+{: .cuidado-title }
+> Cuidado
 > 
 > a paragraph
 

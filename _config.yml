@@ -34,8 +34,8 @@ just_the_docs:
             
 # callouts_opacity: 0.3            
 callouts:
-  cal1:
-    title: cal1
+  cuidado:
+    title: Cuidado
     color: red
     
   cal2:
