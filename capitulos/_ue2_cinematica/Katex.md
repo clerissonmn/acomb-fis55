@@ -264,9 +264,8 @@ The `alt` string doesn't work
 > 
 > a paragraph
 
-{: .exemplo_resolvido-title }
-> Exemplo Resolvido
-> 
+{: .exemplo_resolvido }
+
 > a paragraph
 
 {: .cal4-title }
@@ -274,14 +273,12 @@ The `alt` string doesn't work
 > 
 > a paragraph
 
-{: .importante-title }
-> Importante
-> 
+{: .importante }
+
 > a paragraph
 
-{: .unidades-title }
-> Unidades
-> 
+{: .note }
+
 > a paragraph
 
 {: .cal7-title }

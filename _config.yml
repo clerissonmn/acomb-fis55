@@ -52,11 +52,11 @@ callouts:
     
   importante:
     title: Importante
-    color: green
-    
-  unidades:
-    title: Unidades
     color: blue
+    
+  note:
+    title: Tome Nota
+    color: green
     
   cal7:
     title: cal7
