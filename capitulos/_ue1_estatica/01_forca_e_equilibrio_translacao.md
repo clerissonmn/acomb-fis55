@@ -59,7 +59,7 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 > $$P = 10\,000 N$$
 
 
-### Tração
+### 1.1.2 Tração
 
 É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do material e, falando de uma forma simples, ela "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
@@ -75,7 +75,7 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 >
 > O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
 
-### Normal
+### 1.1.3 Normal
 
 É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante ressaltar que essa força é sempre perpendicular à superfície, ou seja, sempre forma $$90^{\circ}$$.
 
@@ -90,12 +90,22 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 {: .note }
 > Em problemas que envolvam balanças, a força normal é igual a leitura da balança. 
 
-### Atrito
-É a força que tende a dificultar o movimento de arrastar dos corpos ou superfícies. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. O atrito pode ser estático (dificultando o início do movimento) ou cinético (dificultando o movimento).
+### 1.1.4 Atrito
+É a força que tende a dificultar o movimento de arrastar dois corpos quando suas superfícies estiverem em contato físico. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. Sabe-se, por experiência, que esta força depende do tipo de material e do quanto os corpos estão sendo pressionados uns contra os outros. 
+
+Matematicamente, os diferentes tipos de material são modelados por um número chamado _coeficiente de atrito_ ($$\mu$$). O atrito pode ser _estático_, quando dificulta o início do movimento, e _dinâmico_, quando dificulta o andamento do movimento. Então as superfícies possuem dois coeficientes de atrito: coeficiente de atrito estático ($$\mu_E$$) e coeficiente de atrito dinâmico ($$\mu_D$$). É por esse motivo que começar a arrastar uma caixa pesada é mais difícil do que mantê-la em movimento após iniciado.
+
+{: .note }
+> Quando uma superfície está molhada seu coeficiente de atrito diminui.
+
+
+
+
+O cálculo da força de atrito ($$F_{fat}$$) é feito multiplicando a força ($$N$$) por um fator que depende do tipos de superfícies que estão sendo atritados.  coeficiente de atrito ($$\mu$$), ou seja, 
  
-O cálculo da força de atrito ($$f{fat}$$) é feito multiplicando a força normal ($$N$$) pelo coeficiente de atrito ($$\mu$$), ou seja, 
- 
- $$f_{fat} = \mu \times N $$
+ $$
+ F_{fat} = \mu \times N
+ $$
 
 Algumas vezes o atrito é interessante, outras vezes não. Por exemplo [.......]
 
