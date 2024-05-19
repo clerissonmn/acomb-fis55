@@ -119,6 +119,8 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 >
 > d) Qual o valor da força que deve ser aplicada para que o movimento seja mantida?
 >
+> e) Um cabo cuja força máxima suportada é $$200\,N$$ seria uma boa opção para arrastar horizontalmente essa caixa?
+>
 > **Solução**
 > 
 > a) O peso da caixa é
@@ -139,7 +141,25 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 >
 > $$
 > N = 1\,000\,N
+> $$
 >
+> c) Para iniciar o movimento é necessário vencer a força de **atrito estático**, cujo coeficiente é $$\mu_E = 0.5$$. Esta força é calculada por
+>
+> $$ F_{fat estático} = \mu_E \times N$$
+> $$ F_{fat estático} = 0.5 \times 1000$$
+>$$ 
+>F_{fat estático} = 500\,N
+>$$
+>
+> d) Para o movimento se mantido é preciso vencer a força de **atrito dinâmico**, cujo coeficiente é $$\mu_D = 0.2$$, que é calculada por
+>
+> $$ F_{fat\text{ dinâmico}} = \mu_E \times N$$
+> $$ F_{fat\text{ dinâmico}} = 0.2 \times 1000$$
+> $$ 
+> F_{fat\text{ dinâmico}} = 200\,N
+> $$
+>
+> e) A força máxima que o cabo suporta $$200\,N$$ então ele estaria no valor limite durante o movimento. Alem disso, a força necessária para iniciar o movimento deveria ser de, ao menos, $$300\,N$$ o que seria maior do que seu limite de tensionamento. Logo este cabo não seria uma boa escolha.
 
 ### 1.1.5 Força Elástica
  
