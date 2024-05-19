@@ -113,7 +113,7 @@ $$
 > A proporção de $$5:1$$ corresponde a um FS igual a $$5$$. Dessa forma carga de trabalho segura seria
 >
 > $$
-> \text{CT}={\text{10} \over \text{5}}=2
+> \text{CT}={10 \over 5}=2
 > $$
 >
 > Logo a carga segura de trabalho seria por volta de $$2$$ toneladas força.
