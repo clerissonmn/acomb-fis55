@@ -5,6 +5,8 @@ nav_order: 1
 math: katex
 ---
 
+{: toc }
+
 # 1. Força e equilíbrio de translação
 
 Dá-se o nome de força a qualquer interação entre corpos. Quando não equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu comportamento, isto é, seu estado de movimento. É importante ressaltar que não se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo humano executa uma força, isso implica em fazer um certo esforço; entretanto, o conceito de força é mais abrangente, pois mesmo na ausência de interação humana, dois objetos podem exercer força entre si. Por exemplo, uma caixa está efetivamente aplicando força (tracionando) no cabo do guindaste que a está levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No exemplo anterior, a força da gravidade, por sua vez, está aplicando força no caixote, já que está puxando o mesmo em direção ao chão.
@@ -90,7 +92,7 @@ Para calcular a CT devemos dividir a CR pelo fator de segurança.
 
 $$
 \begin{equation}
-\text{CT}=\over{\text{CR}}{\text{FS}},
+\text{CT}={\text{CR} \over \text{FS}},
 \end{equation}
 $$
 
@@ -98,7 +100,7 @@ que é o mesmo que escrever
 
 $$
 \begin{equation}
-\text{CR}= \Text{FS} \times \Text{CT}
+\text{CR} = \text{FS} \times \text{CT}
 \end{equation}
 $$
 
@@ -108,11 +110,10 @@ $$
 > Por exemplo, se um cabo de aço tem uma carga de ruptura de $$10$$ toneladas força e um fator de segurança de $$5:1$$, qual deve ser sua carga de trabalho?
 > 
 > **Resposta**
->
 > A proporção de $$5:1$$ corresponde a um FS igual a $$5$$. Dessa forma carga de trabalho segura seria
 >
 > $$
-> \text{CT}=\over{\text{10}}{\text{5}}=2
+> \text{CT}={\text{10} \over \text{5}}=2
 > $$
 >
 > Logo a carga segura de trabalho seria por volta de $$2$$ toneladas força.
