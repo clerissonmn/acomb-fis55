@@ -8,6 +8,8 @@ math: katex
 # Força e equilíbrio de translação
 
 ## TOC
+
+1. TOC
 {:toc}
 
 ## 1 Forças
