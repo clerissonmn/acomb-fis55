@@ -75,7 +75,7 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 >
 > O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
 
-### 1.1.3 Força Normal
+### 1.1.3 Força Normal ($$F_N$$)
 
 É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante ressaltar que essa força é sempre perpendicular à superfície, ou seja, sempre forma $$90^{\circ}$$.
 
@@ -109,7 +109,7 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 {: .exemplo_resolvido-title }
 > Exemplo Resolvido 1.04
 >
-> Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de metal. Sabendo que o coeficiente de atrito estático máximo entre o piso e a madeira é $$\mu_E = 0.5$$ e o coeficiente de atrito dinâmico é $$mu_D = 0.2$$. Com base nessas informações, responda:
+> Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de metal. Sabendo que o coeficiente de atrito estático máximo entre o piso e a madeira é $$\mu_E = 0.5$$ e o coeficiente de atrito dinâmico é $$\mu_D = 0.2$$. Com base nessas informações, responda:
 >
 > a) Qual o valor do peso da caixa?
 >
@@ -140,7 +140,7 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 > b) Como a caixa está sobre o piso, a força Normal é igual ao peso, oh seja,
 >
 > $$
-> N = 1\,000\,N
+> F_N = 1\,000\,N
 > $$
 >
 > c) Para iniciar o movimento é necessário vencer a força de **atrito estático**, cujo coeficiente é $$\mu_E = 0.5$$. Esta força é calculada por
@@ -154,10 +154,18 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 > d) Para o movimento se mantido é preciso vencer a força de **atrito dinâmico**, cujo coeficiente é $$\mu_D = 0.2$$, que é calculada por
 >
 > $$ F_{fat\text{ dinâmico}} = \mu_E \times N$$
+> 
 > $$ F_{fat\text{ dinâmico}} = 0.2 \times 1000$$
 > $$ 
-> F_{fat\text{ dinâmico}} = 200\,N
-> $$
+> > c) Para iniciar o movimento é necessário vencer a força de **atrito estático**, cujo coeficiente é $$\mu_E = 0.5$$. Esta força é calculada por
+>
+> $$ F_{fat estático} = \mu_E \times N$$
+> 
+> $$ F_{fat estático} = 0.5 \times 1000$$
+> 
+>$$
+>F_{fat estático} = 5\,000\,N
+>$$
 >
 > e) A força máxima que o cabo suporta $$200\,N$$ então ele estaria no valor limite durante o movimento. Alem disso, a força necessária para iniciar o movimento deveria ser de, ao menos, $$300\,N$$ o que seria maior do que seu limite de tensionamento. Logo este cabo não seria uma boa escolha.
 
