@@ -59,7 +59,7 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 > $$P = 10\,000 N$$
 
 
-### 1.1.2 Força de Tração
+### 1.1.2 Força de Tração ($$F_T$$)
 
 É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do material e, falando de uma forma simples, ela "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
@@ -74,6 +74,46 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 > **Resposta**:
 >
 > O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
+
+#### Carga de trabalho (CT) e Carga de Ruptura (CR)
+
+A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_ (WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou qualquer equipamento de elevação pode suportar com segurança durante o uso regular. Ela é calculada aplicando um fator de segurança à **Carga de Ruptura (CR)**, que é a carga máxima que o material pode suportar antes de falhar ou romper. 
+
+O **Fator de Segurança (FS)** é uma margem adicional incorporada para garantir a segurança, considerando variáveis como desgaste, impactos e condições adversas e geralmente é escrito na forma de uma proporção, número. Por exemplo, um fator típico de segurança para aplicações maritmas é $$5$$, que é o mesmo que escrever $$5:1$$.
+
+{: .importante }
+> Note que $$5:1$$, matematicamente, é o mesmo que escrever a fração $$\over{1}{5}=0,2$$. Então um fator de segurança (FS) igual a $$5$$ quer dizer que a carga de trabalho (CT) segura é $$20%$$ da carga de ruptura do cabo (CR) (veja o próximo exemplo resolvido).
+
+Para calcular a CT devemos dividir a CR pelo fator de segurança. 
+
+$$
+\begin{equation}
+\text{CT}=\over{\text{CR}}{\text{FS}},
+\end{equation}
+$$
+
+que é o mesmo que escrever
+
+$$
+\begin{equation}
+\text{CR}= \Text{FS} \times \Text{CT}
+\end{equation}
+$$
+
+{: .exemplo_resolvido-title }
+> Exemplo Resolvido 1.03
+>
+> Por exemplo, se um cabo de aço tem uma carga de ruptura de $$10$$ toneladas força e um fator de segurança de $$5:1$$, qual deve ser sua carga de trabalho?
+> 
+> **Resposta**
+>
+> A proporção de $$5:1$$ corresponde a um FS igual a $$5$$. Dessa forma carga de trabalho segura seria
+>
+> $$
+> \text{CT}=\over{\text{10}}{\text{5}}=2
+> $$
+>
+> Logo a carga segura de trabalho seria por volta de $$2$$ toneladas força.
 
 ### 1.1.3 Força Normal ($$F_N$$)
 
@@ -107,7 +147,7 @@ A _força normal_ ($$N$$) é aquela que informa com que força a superficie esta
 Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes móveis de um motor, por exemplo, que precisam ser lubrificadas para que o atrito seja reduzido e, assim, sofrer menos aquecimento. Por outro lado, há situações em que o atrito é importante. Só podemos andar ou um carro só consegue fazer curvas se existir atrito com o chão.
 
 {: .exemplo_resolvido-title }
-> Exemplo Resolvido 1.04
+> Exemplo Resolvido 1.05
 >
 > Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de metal. Sabendo que o coeficiente de atrito estático máximo entre o piso e a madeira é $$\mu_E = 0.5$$ e o coeficiente de atrito dinâmico é $$\mu_D = 0.2$$. Com base nessas informações, responda:
 >
@@ -119,8 +159,9 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 >
 > d) Qual o valor da força que deve ser aplicada para que o movimento seja mantida?
 >
-> e) Um cabo cuja força máxima suportada é $$200\,N$$ seria uma boa opção para arrastar horizontalmente essa caixa?
+> e) Um cabo cuja carga de ruptura (CR) é $$200\,N$$ seria uma boa opção para arrastar horizontalmente essa caixa?
 >
+> f) Se o oficial de maquinas determina que o fator de segurança para o cabo em questão é $$5$$. Determine qual a **carga de ruptura** do cabo se a **carga de trabalho** for a máxima exigida pela caixa.
 >
 > **Solução**
 > 
@@ -159,7 +200,17 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 > 
 > $$ F_{fat\text{ dinâmico}} = 0.2 \times 1000$$
 >
-> e) A força máxima que o cabo suporta $$200\,N$$ então ele estaria no valor limite durante o movimento. Alem disso, a força necessária para iniciar o movimento deveria ser de, ao menos, $$300\,N$$ o que seria maior do que seu limite de tensionamento. Logo este cabo não seria uma boa escolha.
+> $$ F_{fat\text{ dinâmico}} = 200\,N$$
+>
+> e) A força máxima que o cabo suporta $$200\,N$$ então ele estaria no valor limite durante o movimento. Alem disso, a força necessária para iniciar o movimento deveria ser de, ao menos, $$300\,N$$ o que seria maior do que a carga de ruptura. Logo este cabo não seria uma boa escolha.
+>
+> f) Se o **fator de segurança** (FS) é $$5$$ e a **carga de trabalho** é $$300\N$$, o cabo deve ter uma **carga de ruptura** (CR) de:
+> 
+> $$
+> \text{CR} = \text{CT} \times \text{FS}
+> $$
+>
+> Então o cabo precisa ter uma carga ee ruptura de ao menos $$1\,500\,N$$.
 
 ### 1.1.5 Força Elástica
  
