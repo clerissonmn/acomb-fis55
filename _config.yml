@@ -11,6 +11,8 @@ url: https://just-the-docs.github.io
 #  - title: "Blog do Prof. Clerisson"
 #    url: https://clerissonmn.github.io
 #    hide_icon: true
+
+toc: true
     
 collections_dir: capitulos
 collections:
