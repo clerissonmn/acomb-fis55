@@ -75,7 +75,9 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 >
 > O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
 
-#### Carga de trabalho (CT) e Carga de Ruptura (CR)
+
+#### 1.1.2.1 Carga de trabalho (CT) e Carga de Ruptura (CR)
+
 
 A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_ (WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou qualquer equipamento de elevação pode suportar com segurança durante o uso regular. Ela é calculada aplicando um fator de segurança à **Carga de Ruptura (CR)**, que é a carga máxima que o material pode suportar antes de falhar ou romper. 
 
