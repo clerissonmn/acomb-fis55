@@ -86,7 +86,7 @@ A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_ 
 O **Fator de Segurança (FS)** é uma margem adicional incorporada para garantir a segurança, considerando variáveis como desgaste, impactos e condições adversas e geralmente é escrito na forma de uma proporção, número. Por exemplo, um fator típico de segurança para aplicações maritmas é $$5$$, que é o mesmo que escrever $$5:1$$.
 
 {: .importante }
-> Note que $$5:1$$, matematicamente, é o mesmo que escrever a fração $${1 \over 5}=0,2$$. Então um fator de segurança (FS) igual a $$5$$ quer dizer que a carga de trabalho (CT) segura é $$20%$$ da carga de ruptura do cabo (CR) (veja o próximo exemplo resolvido).
+> Note que $$5:1$$, matematicamente, é o mesmo que escrever a fração $${1 \over 5}=0,2$$. Então um fator de segurança (FS) igual a $$5$$ quer dizer que a carga de trabalho (CT) segura é $$20\%$$ da carga de ruptura do cabo (CR) (veja o próximo exemplo resolvido).
 
 Para calcular a CT devemos dividir a CR pelo fator de segurança. 
 
