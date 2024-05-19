@@ -88,12 +88,12 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 > Se o motor pesa $$5\,000 N$$, a força normal que a plataforma exerce sobre o motor é também de $$5\,000 N$$.
 
 {: .note }
-> Em problemas que envolvam balanças, a força normal é igual a leitura da balança. 
+> Em problemas que envolvam balanças, a leitura da balança é igual a força normal.
 
 ### 1.1.4 Força de Atrito
 É a força que tende a dificultar o movimento de arrastar dois corpos quando suas superfícies estiverem em contato físico. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. Sabe-se, por experiência, que esta força depende do tipo de material e do quanto os corpos estão sendo pressionados uns contra os outros. 
 
-Matematicamente, os diferentes tipos de material são modelados por um número chamado _coeficiente de atrito_ ($$\mu$$). O atrito pode ser _estático_, quando dificulta o início do movimento, e _dinâmico_, quando dificulta o andamento do movimento. Então as superfícies possuem dois coeficientes de atrito: coeficiente de atrito estático ($$\mu_E$$) e coeficiente de atrito dinâmico ($$\mu_D$$). É por esse motivo que começar a arrastar uma caixa pesada é mais difícil do que mantê-la em movimento após iniciado.
+Matematicamente, os diferentes tipos de material são modelados por um número chamado _coeficiente de atrito_ ($$\mu$$). O atrito pode ser _estático_ (quando dificulta o início do movimento) e _dinâmico_ (quando dificulta o andamento do movimento). Todas as superfícies apresentam dois coeficientes de atrito: coeficiente de atrito estático ($$\mu_E$$) e coeficiente de atrito dinâmico ($$\mu_D$$). É por esse motivo que começar a arrastar uma caixa pesada é mais difícil do que mantê-la em movimento após iniciado o movimento.
 
 {: .note }
 > Quando uma superfície está molhada seu coeficiente de atrito diminui.
@@ -112,22 +112,34 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 > Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de metal. Sabendo que o coeficiente de atrito estático máximo entre o piso e a madeira é $$\mu_E = 0.5$$ e o coeficiente de atrito dinâmico é $$mu_D = 0.2$$. Com base nessas informações, responda:
 >
 > a) Qual o valor do peso da caixa?
+>
 > b) Qual o valor da força normal?
+>
 > c) Qual a força que deve ser aplicada na caixa para que ela inicie o movimento?
+>
 > d) Qual o valor da força que deve ser aplicada para que o movimento seja mantida?
 >
 > **Solução**
 > 
 > a) O peso da caixa é
 > 
+> $$
+> P = M \times g
+> $$
 >
 > $$
-> P = M \times g = 100 \times 10$$
+> P = 100 \times 10
 > $$
 >
 > $$
 > P=1\,000 N
 > $$
+>
+> b) Como a caixa está sobre o piso, a força Normal é igual ao peso, oh seja,
+>
+> $$
+> N = 1\,000\,N
+>
 
 ### 1.1.5 Força Elástica
  
