@@ -151,13 +151,7 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 >F_{fat estático} = 500\,N
 >$$
 >
-> d) Para o movimento se mantido é preciso vencer a força de **atrito dinâmico**, cujo coeficiente é $$\mu_D = 0.2$$, que é calculada por
->
-> $$ F_{fat\text{ dinâmico}} = \mu_E \times N$$
-> 
-> $$ F_{fat\text{ dinâmico}} = 0.2 \times 1000$$
-> $$ 
-> > c) Para iniciar o movimento é necessário vencer a força de **atrito estático**, cujo coeficiente é $$\mu_E = 0.5$$. Esta força é calculada por
+> c) Para iniciar o movimento é necessário vencer a força de **atrito estático**, cujo coeficiente é $$\mu_E = 0.5$$. Esta força é calculada por
 >
 > $$ F_{fat estático} = \mu_E \times N$$
 > 
@@ -166,6 +160,13 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 >$$
 >F_{fat estático} = 5\,000\,N
 >$$
+>
+> d) Para o movimento ser mantido é preciso vencer a força de **atrito dinâmico**, cujo coeficiente é $$\mu_D = 0.2$$, que é calculada por
+>
+> $$ F_{fat\text{ dinâmico}} = \mu_E \times N$$
+> 
+> $$ F_{fat\text{ dinâmico}} = 0.2 \times 1000$$
+> $$ 
 >
 > e) A força máxima que o cabo suporta $$200\,N$$ então ele estaria no valor limite durante o movimento. Alem disso, a força necessária para iniciar o movimento deveria ser de, ao menos, $$300\,N$$ o que seria maior do que seu limite de tensionamento. Logo este cabo não seria uma boa escolha.
 
