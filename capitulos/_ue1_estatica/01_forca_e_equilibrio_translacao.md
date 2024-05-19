@@ -17,7 +17,7 @@ Dá-se o nome de força a qualquer interação entre corpos. Quando não equilib
  
  Algumas forças são provenientes de situações e agentes específicos e, por esse motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem particular importância para o presente curso.
  
-### 1.1.1 Peso
+### 1.1.1 Força Peso
  
  Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_, propôs que essa força é oriunda da massa dos corpos isto é, todos os corpos que possuem massa estão sujeitas ã força da gravidade mas somente aquelas massas que são muito grandes é que produzem efeitos observáveis. Por esse motivo a força gravitacional só é perceptível quando os corpos tem o tamanho comparável ao de planetas. Podemos calcular a força peso da seguinte forma:
  
@@ -59,7 +59,7 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 > $$P = 10\,000 N$$
 
 
-### 1.1.2 Tração
+### 1.1.2 Força de Tração
 
 É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do material e, falando de uma forma simples, ela "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
@@ -75,7 +75,7 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 >
 > O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
 
-### 1.1.3 Normal
+### 1.1.3 Força Normal
 
 É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante ressaltar que essa força é sempre perpendicular à superfície, ou seja, sempre forma $$90^{\circ}$$.
 
@@ -90,7 +90,7 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 {: .note }
 > Em problemas que envolvam balanças, a força normal é igual a leitura da balança. 
 
-### 1.1.4 Atrito
+### 1.1.4 Força de Atrito
 É a força que tende a dificultar o movimento de arrastar dois corpos quando suas superfícies estiverem em contato físico. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. Sabe-se, por experiência, que esta força depende do tipo de material e do quanto os corpos estão sendo pressionados uns contra os outros. 
 
 Matematicamente, os diferentes tipos de material são modelados por um número chamado _coeficiente de atrito_ ($$\mu$$). O atrito pode ser _estático_, quando dificulta o início do movimento, e _dinâmico_, quando dificulta o andamento do movimento. Então as superfícies possuem dois coeficientes de atrito: coeficiente de atrito estático ($$\mu_E$$) e coeficiente de atrito dinâmico ($$\mu_D$$). É por esse motivo que começar a arrastar uma caixa pesada é mais difícil do que mantê-la em movimento após iniciado.
@@ -98,20 +98,38 @@ Matematicamente, os diferentes tipos de material são modelados por um número c
 {: .note }
 > Quando uma superfície está molhada seu coeficiente de atrito diminui.
 
-
-
-
-O cálculo da força de atrito ($$F_{fat}$$) é feito multiplicando a força ($$N$$) por um fator que depende do tipos de superfícies que estão sendo atritados.  coeficiente de atrito ($$\mu$$), ou seja, 
+A _força normal_ ($$N$$) é aquela que informa com que força a superficie esta sendo pressionada, logo, para calcular a $$F_{fat}$$ basta fazer:
  
  $$
- F_{fat} = \mu \times N
+ F_{fat} = \mu \times N.
  $$
 
-Algumas vezes o atrito é interessante, outras vezes não. Por exemplo [.......]
+Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes móveis de um motor, por exemplo, que precisam ser lubrificadas para que o atrito seja reduzido e, assim, sofrer menos aquecimento. Por outro lado, há situações em que o atrito é importante. Só podemos andar ou um carro só consegue fazer curvas se existir atrito com o chão.
 
-Exemplo Prático:
-Ao realizar a manutenção de um motor, o oficial de máquinas precisa desmontar partes que estão aparafusadas. O atrito entre as roscas do parafuso e a peça de metal impede que o parafuso se mova facilmente. Para soltar o parafuso, o oficial deve aplicar uma força maior para vencer o atrito estático.
-### Elástica
+{: .exemplo_resolvido-title }
+> Exemplo Resolvido 1.04
+>
+> Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de metal. Sabendo que o coeficiente de atrito estático máximo entre o piso e a madeira é $$\mu_E = 0.5$$ e o coeficiente de atrito dinâmico é $$mu_D = 0.2$$. Com base nessas informações, responda:
+>
+> a) Qual o valor do peso da caixa?
+> b) Qual o valor da força normal?
+> c) Qual a força que deve ser aplicada na caixa para que ela inicie o movimento?
+> d) Qual o valor da força que deve ser aplicada para que o movimento seja mantida?
+>
+> **Solução**
+> 
+> a) O peso da caixa é
+> 
+>
+> $$
+> P = M \times g = 100 \times 10$$
+> $$
+>
+> $$
+> P=1\,000 N
+> $$
+
+### 1.1.5 Força Elástica
  
  A força elástica é a força exercida por um material elástico, como uma mola ou um elástico, quando ele é deformado. Essa força obedece à Lei de Hooke, que afirma que a força é proporcional à deformação (F = -kx, onde k é a constante elástica e x é a deformação).
 
