@@ -16,17 +16,16 @@ math: katex
 
 --- 
 
+## Definição de força
 Dá-se o nome de força a qualquer interação entre corpos. Quando não equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu comportamento, isto é, seu estado de movimento. É importante ressaltar que não se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo humano executa uma força, isso implica em fazer um certo esforço; entretanto, o conceito de força é mais abrangente, pois mesmo na ausência de interação humana, dois objetos podem exercer força entre si. Por exemplo, uma caixa está efetivamente aplicando força (tracionando) no cabo do guindaste que a está levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No exemplo anterior, a força da gravidade, por sua vez, está aplicando força no caixote, já que está puxando o mesmo em direção ao chão.
 
 {: .note }
 
 > No Sistema Internacional (SI) a unidade de medida de força é o Newton (N).
-
-## 1.1 Forças típicas
  
- Algumas forças são provenientes de situações e agentes específicos e, por esse motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem particular importância para o presente curso.
+ Algumas forças são provenientes de situações e agentes específicos e, por esse motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem particular importância.
  
-### 1.1.1 Força Peso
+## Força Peso
  
  Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_, propôs que essa força é oriunda da massa dos corpos isto é, todos os corpos que possuem massa estão sujeitas ã força da gravidade mas somente aquelas massas que são muito grandes é que produzem efeitos observáveis. Por esse motivo a força gravitacional só é perceptível quando os corpos tem o tamanho comparável ao de planetas. Podemos calcular a força peso da seguinte forma:
  
@@ -68,7 +67,7 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 > $$P = 10\,000 N$$
 
 
-### 1.1.2 Força de Tração ($$F_T$$)
+## Força de Tração ($$F_T$$)
 
 É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do material e, falando de uma forma simples, ela "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
@@ -85,8 +84,7 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 > O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
 
 
-#### 1.1.2.1 Carga de trabalho (CT) e Carga de Ruptura (CR)
-
+### Carga de trabalho (CT) e Carga de Ruptura (CR)
 
 A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_ (WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou qualquer equipamento de elevação pode suportar com segurança durante o uso regular. Ela é calculada aplicando um fator de segurança à **Carga de Ruptura (CR)**, que é a carga máxima que o material pode suportar antes de falhar ou romper. 
 
@@ -125,7 +123,7 @@ $$
 >
 > Logo a carga segura de trabalho seria por volta de $$2$$ toneladas força.
 
-### 1.1.3 Força Normal ($$F_N$$)
+## Força Normal ($$F_N$$)
 
 É a força de reação que uma superfície exerce sobre um objeto que está em contato com ela, ou seja,  de forma análoga à força de tração, a força Normal é aquela que informa o quanto se está "apertando" a superfície. Importante ressaltar que essa força é sempre perpendicular à superfície, ou seja, sempre forma $$90^{\circ}$$.
 
@@ -140,7 +138,7 @@ $$
 {: .note }
 > Em problemas que envolvam balanças, a leitura da balança é igual a força normal.
 
-### 1.1.4 Força de Atrito
+## Força de Atrito
 É a força que tende a dificultar o movimento de arrastar dois corpos quando suas superfícies estiverem em contato físico. De forma mais técnica, diz-se que a força de atrito é a força que se opõe ao movimento relativo entre duas superfícies em contato. Sabe-se, por experiência, que esta força depende do tipo de material e do quanto os corpos estão sendo pressionados uns contra os outros. 
 
 Matematicamente, os diferentes tipos de material são modelados por um número chamado _coeficiente de atrito_ ($$\mu$$). O atrito pode ser _estático_ (quando dificulta o início do movimento) e _dinâmico_ (quando dificulta o andamento do movimento). Todas as superfícies apresentam dois coeficientes de atrito: coeficiente de atrito estático ($$\mu_E$$) e coeficiente de atrito dinâmico ($$\mu_D$$). É por esse motivo que começar a arrastar uma caixa pesada é mais difícil do que mantê-la em movimento após iniciado o movimento.
@@ -222,7 +220,7 @@ Em algumas situações do dia-a-dia o atrito é indesejavel, como nas partes mó
 >
 > Então o cabo precisa ter uma carga ee ruptura de ao menos $$1\,500\,N$$.
 
-### 1.1.5 Força Elástica
+## Força Elástica
  
  A força elástica é a força exercida por um material elástico, como uma mola ou um elástico, quando ele é deformado. Essa força obedece à Lei de Hooke, que afirma que a força é proporcional à deformação (F = -kx, onde k é a constante elástica e x é a deformação).
 
