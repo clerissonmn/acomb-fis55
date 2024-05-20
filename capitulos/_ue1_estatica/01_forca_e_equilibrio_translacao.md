@@ -3,6 +3,7 @@ layout: default
 title: Força e equilíbrio de translação
 nav_order: 1
 math: katex
+toc: true
 ---
 
 # Força e equilíbrio de translação
