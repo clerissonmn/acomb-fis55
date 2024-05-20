@@ -10,6 +10,13 @@ toc: true
 
 {: .no_toc }
 
+<<<<<<< HEAD
+=======
+## SUMÁRIO
+
+{: .no_toc .text-delta }
+
+>>>>>>> 81660d18327a759ec8f0f652010c3cc478edcd55
 <details open markdown="block">
   <summary>
     Sumário
