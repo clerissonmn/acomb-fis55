@@ -12,7 +12,8 @@ toc: true
 ## SUMÁRIO
 {: .no_toc .text-delta }
 
-{:toc}
+1. TOC
+{: toc }
 
 --- 
 
