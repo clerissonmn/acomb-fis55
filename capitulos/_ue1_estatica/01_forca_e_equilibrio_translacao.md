@@ -9,10 +9,10 @@ toc: true
 # Força e equilíbrio de translação
 {: .no_toc }
 
-## TOC
+## SUMÁRIO
 {: .no_toc .text-delta }
 
-1.SUMÁRIO
+1.TOC
 {:toc}
 
 --- 
