@@ -7,13 +7,12 @@ toc: true
 ---
 
 # Força e equilíbrio de translação
-
 {: .no_toc }
 
 ## Sumário
+{: no_toc }
 
 1. TOC
-
 {: toc }
 
 
