@@ -345,10 +345,10 @@ Do ponto de vista matemático, é imperativo utilizar o __formalis de vetorial__
 A seguir serão apresentados exemplo para que se possa apreender o uso e o objetivo desta convenção no cálculo das forças resultantes. 
 
 {% assign exi = 0 %}
-
+{% assign uei = 1 %}
 {% assign  exi = exi| plus: 1 %}
 {: .note-title }
-> Exemplo resolvido {{ session_counter }}
+> Exemplo resolvido {{ uei }}.{{ exi }}
 >
 > Texto
 
