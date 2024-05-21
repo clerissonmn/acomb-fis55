@@ -294,11 +294,7 @@ existir atrito com o chão.
 >
 > Então o cabo precisa ter uma carga ee ruptura de ao menos $$1\,500\,N$$.
 
-<<<<<<< HEAD
 <!--
-=======
-<!-- 
->>>>>>> 51b2644fad1c2bc71510245cdb360749a596bd01
 ## Força Elástica
 
 A força elástica é a força exercida por um material elástico, como uma mola ou
@@ -315,15 +311,105 @@ componentes.
 
 ## Força Resultante
 
-Ao se aplicar *uma única força* sobre o corpo, nossa intuição nos diz que o corpo tende a se movimentar para o sentido desta força. O que está correto. contudo e se forem forem aplicadas *mais de uma força*  no mesmo objeto, a análise ficará menos intuitiva. A resposta para esta situação é: nesse caso o movimento do corpo depende da **Força Resultante** entre elas.
+Ao se aplicar **uma única força** sobre o corpo, a intuição nos diz que o corpo tende a se movimentar para o sentido desta força. O que está correto. contudo e se forem forem aplicadas *mais de uma força*  no mesmo objeto, a análise ficará menos intuitiva. A resposta para esta situação é: nesse caso o movimento do corpo depende da **Força Resultante** entre elas.
 
 É importante entender que a força resultante **não é a maior força** mas sim a __combinação de todas as forças, levando em consideração seus módulos e orientações__. Ou seja, ela é a **soma vetorial** de todas as forças que atuam sobre um corpo e, por esse motivo, o cálculo possui suas regras especificas.
 
-Nosso interesse ao calcular a resultante das forças é analisar as condições de equilibrio e, para tanto, as forças na horizontal (eixo $$x$$) e na vertical ($$y$$) serão analisadas de forma separada.  Neste texto utilizaremos as regras de verores mas de forma simplificadas 
+Do ponto de vista matemático, é imperativo utilizar o __formalis de vetorial__ mas como se está interessado em encontrar as forças nas direções horizontal e vertical de forma separada, este texto seguirá uma abordagem própria e mais simplificada para as regras de vetores, explicada a seguir.
+
+{: .definicao-title }
+> **ACORDO**
+>
+> As forças que atuam **para a direita** (sentido positivo de $$x$$), recebem o **sinal de positivo** ($$+$$), enquanto que as forças que atuam **no sentido contrário** recebem o **sinal de negativo**.
+>
+> Da mesma forma, as forças que atuam **para cima** (sentido positivo de $$y$$), recebem o **sinal de positivo** ($$+$$), enquanto que as forças que atuam no **sentido contrário** recebem o **sinal de negativo** ($$-$$).
+>
+> **DEFINIÇÃO**
+>
+> A força resultante em cada eixo ($$x$$ ou $$y$$) é a soma algébrica (considerando o sinal) de todas as forças atuantes neste eixo. Matematicamente
+>
+>$$
+>\begin{equation}
+> F_{Rx} = \Sigma_{i} F_{xi} = F_x1 + F_x2 +\,\text{...}
+>\end{equation}
+>
+> e 
+>
+>\begin{equation}
+> F_{Ry} = \Sigma_{i} F_{yi} = F_y1 + F_y2 +\,\text{...}
+>\end{equation}
+
+A seguir serão apresentados exemplo para que se possa apreender o uso e o objetivo desta convenção no cálculo das forças resultantes. 
+
+{: .exemplo_resolvido-title }
+> Exemplo resolvido 1.06
+>
+> (Texto)
+>
+>**Solução**
+>
+> (Texto)
+>
+>
+
+{: .exemplo_resolvido-title }
+> Exemplo resolvido 1.07
+>
+> (Texto)
+>
+>**Solução**
+>
+> (Texto)
+>
+>
+
+{: .exemplo_resolvido-title }
+> Exemplo resolvido 1.08
+>
+> (Texto)
+>
+>**Solução**
+>
+> (Texto)
+>
+>
+
+{: .exemplo_resolvido-title }
+> Exemplo resolvido 1.09
+>
+> (Texto)
+>
+>**Solução**
+>
+> (Texto)
+>
+>
 
 
-Para que um corpo esteja em equilíbrio translacional, a força resultante deve
-ser zero.
+{: .exemplo_resolvido-title }
+> Exemplo resolvido 1.10
+>
+> (Texto)
+>
+>**Solução**
+>
+> (Texto)
+>
+>
+
+{: .exemplo_resolvido-title }
+> Exemplo resolvido 1.11
+>
+> (Texto)
+>
+>**Solução**
+>
+> (Texto)
+>
+>
+
+{: .importante }
+> Note que em alguns dos exemplos anteriores encontramos forças resultantes iguais a zero. Isso quer dizer que, nesses casos, as forças se anulam e o corpo continuaria parado naquela direção. Dizemos, então, que ele está em **equilíbrio estático**.
 
 Exemplo Prático: Imagine um navio atracado com duas amarras: uma força de 5000 N
 puxando o navio para a direita e outra de 5000 N puxando-o para a esquerda. A
