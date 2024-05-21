@@ -268,8 +268,8 @@ The `alt` string doesn't work
 
 > a paragraph
 
-{: .cal4-title }
-> callout 4
+{: .definicao-title }
+> Definição
 > 
 > a paragraph
 
