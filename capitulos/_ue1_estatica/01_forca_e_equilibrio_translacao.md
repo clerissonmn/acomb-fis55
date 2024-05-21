@@ -283,7 +283,7 @@ existir atrito com o chão.
 > carga de ruptura. Logo este cabo não seria uma boa escolha.
 >
 > f) Se o **fator de segurança** (FS) é $$5$$ e a **carga de trabalho** é
-> $$300\N$$, o cabo deve ter uma **carga de ruptura** (CR) de:
+> $$300\,N$$, o cabo deve ter uma **carga de ruptura** (CR) de:
 >
 > $$
 > \text{CR} = \text{CT} \times \text{FS}
@@ -291,6 +291,7 @@ existir atrito com o chão.
 >
 > Então o cabo precisa ter uma carga ee ruptura de ao menos $$1\,500\,N$$.
 
+<!-- 
 ## Força Elástica
 
 A força elástica é a força exercida por um material elástico, como uma mola ou
@@ -303,21 +304,17 @@ absorver os choques e vibrações. Quando o motor está em funcionamento, as mol
 se deformam para absorver a energia dos movimentos, exercendo uma força elástica
 que ajuda a manter a estabilidade do motor e a reduzir o desgaste dos
 componentes.
-
-## Decomposição de forças
-
-A decomposição de forças é o processo de dividir uma força em componentes
-perpendiculares, geralmente em direções horizontais e verticais. Isso é útil
-para simplificar a análise de forças que atuam em diferentes direções.
-
-Exemplo Prático: Imagine que uma máquina a bordo de um navio está sujeita a uma
-força 𝐹 F de 5000 N que atua em um ângulo de 30° em relação à horizontal. O
-oficial de máquinas precisa decompor essa força em componentes horizontal ( 𝐹 𝑥
-F x ​ ) e vertical ( 𝐹 𝑦 F y ​ ).
+-->
 
 ## Força Resultante
 
-A força resultante é a soma vetorial de todas as forças atuando sobre um corpo.
+Ao se aplicar *uma única força* sobre o corpo, nossa intuição nos diz que o corpo tende a se movimentar para o sentido desta força. O que está correto. contudo e se forem forem aplicadas *mais de uma força*  no mesmo objeto, a análise ficará menos intuitiva. A resposta para esta situação é: nesse caso o movimento do corpo depende da **Força Resultante** entre elas.
+
+É importante entender que a força resultante **não é a maior força** mas sim a __combinação de todas as forças, levando em consideração seus módulos e orientações__. Ou seja, ela é a **soma vetorial** de todas as forças que atuam sobre um corpo e, por esse motivo, o cálculo possui suas regras especificas.
+
+Nosso interesse ao calcular a resultante das forças é analisar as condições de equilibrio e, para tanto, as forças na horizontal (eixo $$x$$) e na vertical ($$y$$) serão analisadas de forma separada.  Neste texto utilizaremos as regras de verores mas de forma simplificadas 
+
+
 Para que um corpo esteja em equilíbrio translacional, a força resultante deve
 ser zero.
 
@@ -330,6 +327,18 @@ cálculo da força resultante deve ser feito de forma separada. Assim
 encontraremos duas respostas: uma força resultante em $x$ ($F{R_x}$) e outra em
 $y$ ($F{R_y}$). Se uma ou mais forças não estiverem alinhadas com $x$ ou $y$,
 deve-se fazer a decomposição.
+
+## Decomposição de forças
+
+Quando duas ou mais forças atuam no corpo, A decomposição de forças é o processo de dividir uma força em componentes
+perpendiculares, geralmente em direções horizontais e verticais. Isso é útil
+para simplificar a análise de forças que atuam em diferentes direções.
+
+Exemplo Prático: Imagine que uma máquina a bordo de um navio está sujeita a uma
+força 𝐹 F de 5000 N que atua em um ângulo de 30° em relação à horizontal. O
+oficial de máquinas precisa decompor essa força em componentes horizontal ( 𝐹 𝑥
+F x ​ ) e vertical ( 𝐹 𝑦 F y ​ ).
+
 
 ## Equilíbrio de Translação
 
