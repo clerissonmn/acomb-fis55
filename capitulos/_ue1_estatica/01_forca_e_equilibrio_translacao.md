@@ -10,7 +10,7 @@ toc: true
 {: .no_toc }
 
 ## Sumário
-{: no_toc }
+{: .no_toc }
 
 1. TOC
 {: toc }
@@ -34,8 +34,9 @@ exemplo anterior, a força da gravidade, por sua vez, está aplicando força no
 caixote, já que está puxando o mesmo em direção ao chão.
 
 {: .note }
-
 > No Sistema Internacional (SI) a unidade de medida de força é o Newton (N).
+
+A força é representada por uma seta chamada _vetor_. O tamanho (ou módulo) deste vetor representa o valor da força enquanto que a sua orientação (para onde ele aponta) representa a direção da força.  
 
 Algumas forças são provenientes de situações e agentes específicos e, por esse
 motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem
@@ -92,6 +93,8 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 >
 > $$P = 10\,000 N$$
 
+{: .importante }
+> É importante notar que
 
 ## Força de Tração ($$F_T$$)
 
@@ -114,7 +117,7 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 
 A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_ (WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou qualquer equipamento de elevação pode suportar com segurança durante o uso regular. Ela é calculada aplicando um fator de segurança à **Carga de Ruptura (CR)**, que é a carga máxima que o material pode suportar antes de falhar ou romper.
 
-O **Fator de Segurança (FS)** é uma margem adicional incorporada para garantir a segurança, considerando variáveis como desgaste, impactos e condições adversas e geralmente é escrito na forma de uma proporção, número. Por exemplo, um fator típico de segurança para aplicações maritmas é $$5$$, que é o mesmo que escrever $$5:1$$.
+O **Fator de Segurança (FS)** é uma margem adicional incorporada para garantir a segurança, considerando variáveis como desgaste, impactos e condições adversas e geralmente é escrito na forma de uma proporção, número. Por exemplo, um fator típico de segurança para aplicações maritmas é $$5$$, que é o mesmo que escrever $$5:1$$ (lê-se 5 para 1).
 
 {: .importante }
 > Note que $$5:1$$, matematicamente, é o mesmo que escrever a fração $${1 \over 5}=0,2$$. Então um fator de segurança (FS) igual a $$5$$ quer dizer que a carga de trabalho (CT) segura é $$20\%$$ da carga de ruptura do cabo (CR) (veja o próximo exemplo resolvido).
@@ -291,6 +294,7 @@ existir atrito com o chão.
 >
 > Então o cabo precisa ter uma carga ee ruptura de ao menos $$1\,500\,N$$.
 
+<!--
 ## Força Elástica
 
 A força elástica é a força exercida por um material elástico, como uma mola ou
@@ -303,6 +307,7 @@ absorver os choques e vibrações. Quando o motor está em funcionamento, as mol
 se deformam para absorver a energia dos movimentos, exercendo uma força elástica
 que ajuda a manter a estabilidade do motor e a reduzir o desgaste dos
 componentes.
+-->
 
 ## Decomposição de forças
 
