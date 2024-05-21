@@ -312,20 +312,6 @@ se deformam para absorver a energia dos movimentos, exercendo uma força elásti
 que ajuda a manter a estabilidade do motor e a reduzir o desgaste dos
 componentes.
 -->
-<<<<<<< HEAD
-
-## Decomposição de forças
-
-A decomposição de forças é o processo de dividir uma força em componentes
-perpendiculares, geralmente em direções horizontais e verticais. Isso é útil
-para simplificar a análise de forças que atuam em diferentes direções.
-
-Exemplo Prático: Imagine que uma máquina a bordo de um navio está sujeita a uma
-força 𝐹 F de 5000 N que atua em um ângulo de 30° em relação à horizontal. O
-oficial de máquinas precisa decompor essa força em componentes horizontal ( 𝐹 𝑥
-F x ​ ) e vertical ( 𝐹 𝑦 F y ​ ).
-=======
->>>>>>> 51b2644fad1c2bc71510245cdb360749a596bd01
 
 ## Força Resultante
 
