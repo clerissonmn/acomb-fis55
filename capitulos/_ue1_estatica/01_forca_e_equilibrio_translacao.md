@@ -6,20 +6,34 @@ math: katex
 toc: true
 ---
 
-# Força e equilíbrio de translação
+<!-- 
+Conf. Iniciais
+exi: contor dos exercicios resolvidos
+uei: contador com o numero da U.E.
+ si: contador com numero da secao
+ssi: contador com o numero da aubsecao
+-->
+{% assign uei = 1 %}
+{% assign  si = 0 %}
+{% assign ssi = 0 %}
+{% assign exi = 0 %}
+<!-- Fim Conf. Iniciais -->
+
+# {{ uei }}. Força e equilíbrio de translação
 {: .no_toc }
 
 ## Sumário
 {: .no_toc }
 
-1. TOC
+- TOC
 {: toc }
 
 
 
 ---
 
-## Definição de força
+{% assign si = si | plus: 1 %}
+## {{ uei }}.{{ si }}. Definição de força
 
 Dá-se o nome de força a qualquer interação entre corpos. Quando não
 equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu
@@ -42,7 +56,8 @@ Algumas forças são provenientes de situações e agentes específicos e, por e
 motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem
 particular importância.
 
-## Força Peso
+{% assign si = si | plus: 1 %}
+## {{ uei }}.{{ si }}. Força Peso
 
 Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força
 que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_,
@@ -96,7 +111,8 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 {: .importante }
 > É importante notar que
 
-## Força de Tração ($$F_T$$)
+{% assign si = si | plus: 1 %}
+## {{ uei }}.{{ si }}. Força de Tração ($$F_T$$)
 
 É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do material e, falando de uma forma simples, ela "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
@@ -112,8 +128,8 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 >
 > O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
 
-
-### Carga de trabalho (CT) e Carga de Ruptura (CR)
+{% assign ssi = ssi | plus: 1 %}
+### {{ uei }}.{{ si }}.{{ ssi }} Carga de trabalho (CT) e Carga de Ruptura (CR)
 
 A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_ (WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou qualquer equipamento de elevação pode suportar com segurança durante o uso regular. Ela é calculada aplicando um fator de segurança à **Carga de Ruptura (CR)**, que é a carga máxima que o material pode suportar antes de falhar ou romper.
 
@@ -135,9 +151,7 @@ que é o mesmo que escrever
 
 
 $$
-
 \begin{equation} \text{CR} = \text{FS} \times \text{CT} \end{equation}
-
 $$
 
 {: .exemplo_resolvido-title }
@@ -158,30 +172,8 @@ $$
 > Logo a carga segura de trabalho seria por volta de $$2$$ toneladas força.
 > $$
 
-## Força Normal ($$F_N$$)
-
-É a força de reação que uma superfície exerce sobre um objeto que está em
-contato com ela, ou seja, de forma análoga à força de tração, a força Normal é
-aquela que informa o quanto se está "apertando" a superfície. Importante
-ressaltar que essa força é sempre perpendicular à superfície, ou seja, sempre
-forma $$90^{\circ}$$.
-
-{: .exemplo_resolvido-title }
-
-> Exemplo Resolvido 1.03
->
-> Um motor está montado em uma plataforma de metal dentro da casa de máquinas. A
-> força normal. Calcule a força que a plataforma exerce sobre o motor.
->
-> **Resposta** Se o motor pesa $$5\,000 N$$, a força normal que a plataforma
-> exerce sobre o motor é também de $$5\,000 N$$.
-
-{: .note }
-
-> Em problemas que envolvam balanças, a leitura da balança é igual a força
-> normal.
-
-## Força de Atrito
+{% assign si = si | plus: 1 %}
+## {{ uei }}.{{ si }}. Força de Atrito
 
 É a força que tende a dificultar o movimento de arrastar dois corpos quando suas
 superfícies estiverem em contato físico. De forma mais técnica, diz-se que a
@@ -295,7 +287,8 @@ existir atrito com o chão.
 > Então o cabo precisa ter uma carga ee ruptura de ao menos $$1\,500\,N$$.
 
 <!--
-## Força Elástica
+{% assign si = si | plus: 1 %}
+## {{ uei }}.{{ si }}. Força Elástica
 
 A força elástica é a força exercida por um material elástico, como uma mola ou
 um elástico, quando ele é deformado. Essa força obedece à Lei de Hooke, que
@@ -309,7 +302,9 @@ que ajuda a manter a estabilidade do motor e a reduzir o desgaste dos
 componentes.
 -->
 
-## Força Resultante
+
+{% assign si = si | plus: 1 %}
+## {{ uei }}.{{ si }}. Força Resultante
 
 Ao se aplicar **uma única força** sobre o corpo, a intuição nos diz que o corpo tende a se movimentar para o sentido desta força. O que está correto. contudo e se forem forem aplicadas *mais de uma força*  no mesmo objeto, a análise ficará menos intuitiva. A resposta para esta situação é: nesse caso o movimento do corpo depende da **Força Resultante** entre elas.
 
@@ -344,9 +339,8 @@ Do ponto de vista matemático, é imperativo utilizar o __formalis de vetorial__
 
 A seguir serão apresentados exemplo para que se possa apreender o uso e o objetivo desta convenção no cálculo das forças resultantes. 
 
-{% assign exi = 0 %}
-{% assign uei = 1 %}
-{% assign  exi = exi| plus: 1 %}
+{% assign  exi = exi | plus: 1 %}
+
 {: .note-title }
 > Exemplo resolvido {{ uei }}.{{ exi }}
 >
