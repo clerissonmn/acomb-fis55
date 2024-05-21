@@ -330,7 +330,7 @@ Do ponto de vista matemático, é imperativo utilizar o __formalis de vetorial__
 >
 >$$
 >\begin{equation}
-> F_{Rx} = \Sigma_{i} F_{xi} = F_x1 + F_x2 +\,\text{...}
+> F_{Rx} = \Sigma_{i} F_{xi} = F_{x1} + F_{x2} +\,\text{...}
 >\end{equation}
 >$$
 >
@@ -338,7 +338,7 @@ Do ponto de vista matemático, é imperativo utilizar o __formalis de vetorial__
 >
 >$$
 >\begin{equation}
-> F_{Ry} = \Sigma_{i} F_{yi} = F_y1 + F_y2 +\,\text{...}
+> F_{Ry} = \Sigma_{i} F_{yi} = F_{y1} + F_{y2} +\,\text{...}
 >\end{equation}
 > $$
 
