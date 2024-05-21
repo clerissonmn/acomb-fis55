@@ -317,8 +317,8 @@ Ao se aplicar **uma única força** sobre o corpo, a intuição nos diz que o co
 
 Do ponto de vista matemático, é imperativo utilizar o __formalis de vetorial__ mas como se está interessado em encontrar as forças nas direções horizontal e vertical de forma separada, este texto seguirá uma abordagem própria e mais simplificada para as regras de vetores, explicada a seguir.
 
-{: .definicao-title }
-> **ACORDO**
+{: .definicao }
+> **CONVENÇÃO**
 >
 > As forças que atuam **para a direita** (sentido positivo de $$x$$), recebem o **sinal de positivo** ($$+$$), enquanto que as forças que atuam **no sentido contrário** recebem o **sinal de negativo**.
 >
@@ -332,14 +332,29 @@ Do ponto de vista matemático, é imperativo utilizar o __formalis de vetorial__
 >\begin{equation}
 > F_{Rx} = \Sigma_{i} F_{xi} = F_x1 + F_x2 +\,\text{...}
 >\end{equation}
+>$$
 >
 > e 
 >
+>$$
 >\begin{equation}
 > F_{Ry} = \Sigma_{i} F_{yi} = F_y1 + F_y2 +\,\text{...}
 >\end{equation}
+> $$
 
 A seguir serão apresentados exemplo para que se possa apreender o uso e o objetivo desta convenção no cálculo das forças resultantes. 
+
+{% assign exi = 0 %}
+
+{% assign  exi = exi| plus: 1 %}
+{: .note-title }
+> Exemplo resolvido {{ session_counter }}
+>
+> Texto
+
+
+
+
 
 {: .exemplo_resolvido-title }
 > Exemplo resolvido 1.06
