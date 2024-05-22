@@ -7,31 +7,33 @@ math: katex
 toc: true
 ---
 
-<!-- 
+<!--
 Conf. Iniciais
 exi: contor dos exercicios resolvidos
 uei: contador com o numero da U.E.
  si: contador com numero da secao
 ssi: contador com o numero da aubsecao
 -->
-{% assign  si = 0 %}
-{% assign ssi = 0 %}
-{% assign exi = 0 %}
-{% assign fig = 0 %}
+
+{% assign  si = 0 %} {% assign ssi = 0 %} {% assign exi = 0 %}
+{% assign figi = 0 %}
+
 <!-- Fim Conf. Iniciais -->
 
 # {{ page.UE }}. Força e equilíbrio de translação
+
 {: .no_toc }
 
 ## Sumário
+
 {: .no_toc }
 
-- TOC
-{: toc }
+-   TOC {: toc }
 
 ---
 
 {% assign si = si | plus: 1 %}
+
 ## {{ page.UE }}.{{ si }}. Definição de força
 
 Dá-se o nome de força a qualquer interação entre corpos. Quando não
@@ -47,15 +49,19 @@ exemplo anterior, a força da gravidade, por sua vez, está aplicando força no
 caixote, já que está puxando o mesmo em direção ao chão.
 
 {: .note }
+
 > No Sistema Internacional (SI) a unidade de medida de força é o Newton (N).
 
-A força é representada por uma seta chamada _vetor_. O tamanho (ou módulo) deste vetor representa o valor da força enquanto que a sua orientação (para onde ele aponta) representa a direção da força.  
+A força é representada por uma seta chamada _vetor_. O tamanho (ou módulo) deste
+vetor representa o valor da força enquanto que a sua orientação (para onde ele
+aponta) representa a direção da força.
 
 Algumas forças são provenientes de situações e agentes específicos e, por esse
 motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem
 particular importância.
 
 {% assign si = si | plus: 1 %}
+
 ## {{ page.UE }}.{{ si }}. Força Peso
 
 Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força
@@ -82,7 +88,7 @@ $$1kg$$ pois
 
 $$
 P = 1 \times 10 = 10 \, N
-$$.
+$$
 
 Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso de uma massa de $$100g$$ (faça as contas).
 
@@ -152,7 +158,9 @@ que é o mesmo que escrever
 
 
 $$
+
 \begin{equation} \text{CR} = \text{FS} \times \text{CT} \end{equation}
+
 $$
 
 {: .exemplo_resolvido-title }
@@ -175,6 +183,7 @@ $$
 > $$
 
 {% assign si = si | plus: 1 %}
+
 ## {{ page.UE }}.{{ si }}. Força de Atrito
 
 É a força que tende a dificultar o movimento de arrastar dois corpos quando suas
@@ -208,8 +217,8 @@ reduzido e, assim, sofrer menos aquecimento. Por outro lado, há situações em 
 o atrito é importante. Só podemos andar ou um carro só consegue fazer curvas se
 existir atrito com o chão.
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
+
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de
@@ -304,129 +313,123 @@ que ajuda a manter a estabilidade do motor e a reduzir o desgaste dos
 componentes.
 -->
 
-
 {% assign si = si | plus: 1 %}
+
 ## {{ page.UE }}.{{ si }}. Força Resultante
 
-Ao se aplicar **uma única força** sobre o corpo, a intuição nos diz que o corpo tende a se movimentar para o sentido desta força. O que está correto. contudo e se forem forem aplicadas *mais de uma força*  no mesmo objeto, a análise ficará menos intuitiva. A resposta para esta situação é: nesse caso o movimento do corpo depende da **Força Resultante** entre elas.
+Ao se aplicar **uma única força** sobre o corpo, a intuição nos diz que o corpo
+tende a se movimentar para o sentido desta força. O que está correto. contudo e
+se forem forem aplicadas _mais de uma força_ no mesmo objeto, a análise ficará
+menos intuitiva. A resposta para esta situação é: nesse caso o movimento do
+corpo depende da **Força Resultante** entre elas.
 
-É importante entender que a força resultante **não é a maior força** mas sim a __combinação de todas as forças, levando em consideração seus módulos e orientações__. Ou seja, ela é a **soma vetorial** de todas as forças que atuam sobre um corpo e, por esse motivo, o cálculo possui suas regras especificas.
+É importante entender que a força resultante **não é a maior força** mas sim a
+**combinação de todas as forças, levando em consideração seus módulos e
+orientações**. Ou seja, ela é a **soma vetorial** de todas as forças que atuam
+sobre um corpo e, por esse motivo, o cálculo possui suas regras especificas.
 
-Do ponto de vista matemático, é imperativo utilizar o __formalis de vetorial__ mas como se está interessado em encontrar as forças nas direções horizontal e vertical de forma separada, este texto seguirá uma abordagem própria e mais simplificada para as regras de vetores, explicada a seguir.
+Do ponto de vista matemático, é imperativo utilizar o **formalis de vetorial**
+mas como se está interessado em encontrar as forças nas direções horizontal e
+vertical de forma separada, este texto seguirá uma abordagem própria e mais
+simplificada para as regras de vetores, explicada a seguir.
 
 {: .definicao }
-> **CONVENÇÃO**
+
+> As forças que atuam **para a direita** (sentido positivo de $$x$$), recebem o
+> **sinal de positivo** ($$+$$), enquanto que as forças que atuam **no sentido
+> contrário** recebem o **sinal de negativo**.
 >
-> As forças que atuam **para a direita** (sentido positivo de $$x$$), recebem o **sinal de positivo** ($$+$$), enquanto que as forças que atuam **no sentido contrário** recebem o **sinal de negativo**.
+> Da mesma forma, as forças que atuam **para cima** (sentido positivo de $$y$$),
+> recebem o **sinal de positivo** ($$+$$), enquanto que as forças que atuam no
+> **sentido contrário** recebem o **sinal de negativo** ($$-$$).
 >
-> Da mesma forma, as forças que atuam **para cima** (sentido positivo de $$y$$), recebem o **sinal de positivo** ($$+$$), enquanto que as forças que atuam no **sentido contrário** recebem o **sinal de negativo** ($$-$$).
+> A força resultante em cada eixo ($$x$$ ou $$y$$) é a soma algébrica
+> (considerando o sinal) de todas as forças atuantes neste eixo. Matematicamente
+> temos
 >
-> **DEFINIÇÃO**
+> $$
+> \begin{equation}
+> F_{Rx} = F_{x1} + F_{x2} +\,\text{...}
+> \end{equation}
+> $$
 >
-> A força resultante em cada eixo ($$x$$ ou $$y$$) é a soma algébrica (considerando o sinal) de todas as forças atuantes neste eixo. Matematicamente
+> e
 >
->$$
->\begin{equation}
-> F_{Rx} = \Sigma_{i} F_{xi} = F_{x1} + F_{x2} +\,\text{...}
->\end{equation}
->$$
->
-> e 
->
->$$
->\begin{equation}
-> F_{Ry} = \Sigma_{i} F_{yi} = F_{y1} + F_{y2} +\,\text{...}
->\end{equation}
+> $$
+> \begin{equation}
+> F_{Ry} = F_{y1} + F_{y2} +\,\text{...}
+> \end{equation}
 > $$
 
-A seguir serão apresentados exemplo para que se possa apreender o uso e o objetivo desta convenção no cálculo das forças resultantes. 
+A seguir serão apresentados exemplo para que se possa apreender o uso e o
+objetivo desta convenção no cálculo das forças resultantes.
 
-{% assign  exi = exi | plus: 1 %}
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-{: .note-title }
-> Exemplo resolvido {{ page.UE }}.{{ exi }}
->
-> Texto
-
-
-
-
-
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
->**Solução**
+> **Solução**
 >
 > (Texto)
->
->
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
+
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
->**Solução**
+> **Solução**
 >
 > (Texto)
->
->
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
+
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
->**Solução**
+> **Solução**
 >
 > (Texto)
->
->
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
+
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
->**Solução**
+> **Solução**
 >
 > (Texto)
->
->
 
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
->**Solução**
+> **Solução**
 >
 > (Texto)
->
->
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
+
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
->**Solução**
+> **Solução**
 >
 > (Texto)
->
->
 
 {: .importante }
-> Note que em alguns dos exemplos anteriores encontramos forças resultantes iguais a zero. Isso quer dizer que, nesses casos, as forças se anulam e o corpo continuaria parado naquela direção. Dizemos, então, que ele está em **equilíbrio estático**.
+
+> Note que em alguns dos exemplos anteriores encontramos forças resultantes
+> iguais a zero. Isso quer dizer que, nesses casos, as forças se anulam e o
+> corpo continuaria parado naquela direção. Dizemos, então, que ele está em
+> **equilíbrio estático**.
 
 Exemplo Prático: Imagine um navio atracado com duas amarras: uma força de 5000 N
 puxando o navio para a direita e outra de 5000 N puxando-o para a esquerda. A
@@ -440,15 +443,15 @@ deve-se fazer a decomposição.
 
 ## Decomposição de forças
 
-Quando duas ou mais forças atuam no corpo, A decomposição de forças é o processo de dividir uma força em componentes
-perpendiculares, geralmente em direções horizontais e verticais. Isso é útil
-para simplificar a análise de forças que atuam em diferentes direções.
+Quando duas ou mais forças atuam no corpo, A decomposição de forças é o processo
+de dividir uma força em componentes perpendiculares, geralmente em direções
+horizontais e verticais. Isso é útil para simplificar a análise de forças que
+atuam em diferentes direções.
 
 Exemplo Prático: Imagine que uma máquina a bordo de um navio está sujeita a uma
 força 𝐹 F de 5000 N que atua em um ângulo de 30° em relação à horizontal. O
 oficial de máquinas precisa decompor essa força em componentes horizontal ( 𝐹 𝑥
 F x ​ ) e vertical ( 𝐹 𝑦 F y ​ ).
-
 
 ## Equilíbrio de Translação
 
