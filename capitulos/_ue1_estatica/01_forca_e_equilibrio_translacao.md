@@ -90,17 +90,24 @@ $$
 P = 1 \times 10 = 10 \, N
 $$
 
-Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso de uma massa de $$100g$$ (faça as contas).
+Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso de
+uma massa de $$100g$$ (faça as contas).
 
 {: .cuidado }
-> Neste ponto podemos perceber que _massa_ e _peso_ são duas grandezas diferentes. A massa é a quantidade de matéria (quilogramas) no corpo e o peso é a **força** (em Newton) com que a gravidade puxa essa massa para o chão. Nesse contexto pode-se entender que uma balança, por exemplo, nao mede o _peso_ mas sim a _massa_ de um corpo.
 
+> Neste ponto podemos perceber que _massa_ e _peso_ são duas grandezas
+> diferentes. A massa é a quantidade de matéria (quilogramas) no corpo e o peso
+> é a **força** (em Newton) com que a gravidade puxa essa massa para o chão.
+> Nesse contexto pode-se entender que uma balança, por exemplo, nao mede o
+> _peso_ mas sim a _massa_ de um corpo.
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
+
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
-> Durante um teste de carga um guindaste de bordo suspende uma caixa de 1 Ton (tonelada). Calcule qual o peso da caixa (em Newton) que cabo do guindaste está suportando.
+> Durante um teste de carga um guindaste de bordo suspende uma caixa de 1 Ton
+> (tonelada). Calcule qual o peso da caixa (em Newton) que cabo do guindaste
+> está suportando.
 >
 > **Resposta**
 >
@@ -115,72 +122,93 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 > $$P = 10\,000 N$$
 
 {: .importante }
+
 > É importante notar que
 
 {% assign si = si | plus: 1 %}
+
 ## {{ page.UE }}.{{ si }}. Força de Tração ($$F_T$$)
 
-É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do material e, falando de uma forma simples, ela "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
+É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é
+puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do
+material e, falando de uma forma simples, ela "informa" qual o valor da força
+que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
-Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A força de tração é a quela força "sentida" pelo cabo do guindaste ao ser pendurada a carga.
+Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A força
+de tração é a quela força "sentida" pelo cabo do guindaste ao ser pendurada a
+carga.
 
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > Qual a força de tração sentida pelo cabo de aço no exemplo 1.01
 >
 > **Resposta**:
 >
-> O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
+> O cabo do guindaste está suportando todo o peso da caixa, logo a força de
+> tração nele também é $$10/,000 N$$.
 
 {% assign ssi = ssi | plus: 1 %}
+
 ### {{ page.UE }}.{{ si }}.{{ ssi }}. Carga de trabalho (CT) e Carga de Ruptura (CR)
 
-A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_ (WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou qualquer equipamento de elevação pode suportar com segurança durante o uso regular. Ela é calculada aplicando um fator de segurança à **Carga de Ruptura (CR)**, que é a carga máxima que o material pode suportar antes de falhar ou romper.
+A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_
+(WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou
+qualquer equipamento de elevação pode suportar com segurança durante o uso
+regular. Ela é calculada aplicando um fator de segurança à **Carga de Ruptura
+(CR)**, que é a carga máxima que o material pode suportar antes de falhar ou
+romper.
 
-O **Fator de Segurança (FS)** é uma margem adicional incorporada para garantir a segurança, considerando variáveis como desgaste, impactos e condições adversas e geralmente é escrito na forma de uma proporção, número. Por exemplo, um fator típico de segurança para aplicações maritmas é $$5$$, que é o mesmo que escrever $$5:1$$ (lê-se 5 para 1).
+O **Fator de Segurança (FS)** é uma margem adicional incorporada para garantir a
+segurança, considerando variáveis como desgaste, impactos e condições adversas e
+geralmente é escrito na forma de uma proporção, número. Por exemplo, um fator
+típico de segurança para aplicações maritmas é $$5$$, que é o mesmo que escrever
+$$5:1$$ (lê-se 5 para 1).
 
 {: .importante }
-> Note que $$5:1$$, matematicamente, é o mesmo que escrever a fração $${1 \over 5}=0,2$$. Então um fator de segurança (FS) igual a $$5$$ quer dizer que a carga de trabalho (CT) segura é $$20\%$$ da carga de ruptura do cabo (CR) (veja o próximo exemplo resolvido).
+
+> Note que $$5:1$$, matematicamente, é o mesmo que escrever a fração
+> $${1 \over 5}=0,2$$. Então um fator de segurança (FS) igual a $$5$$ quer dizer
+> que a carga de trabalho (CT) segura é $$20\%$$ da carga de ruptura do cabo
+> (CR) (veja o próximo exemplo resolvido).
 
 Para calcular a CT devemos dividir a CR pelo fator de segurança.
-
 
 $$
 
 \begin{equation} \text{CT}={\text{CR} \over \text{FS}}, \end{equation}
 
+
 $$
 
 que é o mesmo que escrever
-
 
 $$
 
 \begin{equation} \text{CR} = \text{FS} \times \text{CT} \end{equation}
 
+
 $$
 
-{: .exemplo_resolvido-title }
-{% assign exi = exi | plus: 1 %}
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
+
 > Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
-> Por exemplo, se um cabo de aço tem uma carga de ruptura de $$10$$ toneladas força e um fator de segurança de $$5:1$$, qual deve ser sua carga de trabalho?
+> Por exemplo, se um cabo de aço tem uma carga de ruptura de $$10$$ toneladas
+> força e um fator de segurança de $$5:1$$, qual deve ser sua carga de trabalho?
 >
-> **Resposta**
-> A proporção de $$5:1$$ corresponde a um FS igual a $$5$$. Dessa forma carga de trabalho segura seria
->
->
+> **Resposta** A proporção de $$5:1$$ corresponde a um FS igual a $$5$$. Dessa
+> forma carga de trabalho segura seria
+
 $$
 
 > \text{CT}={10 \over 5}=2
 >
-> $$
 >
-> Logo a carga segura de trabalho seria por volta de $$2$$ toneladas força.
-> $$
+$$
+
+> Logo a carga segura de trabalho seria por volta de $$2$$ toneladas força. $$
 
 {% assign si = si | plus: 1 %}
 
@@ -424,36 +452,44 @@ objetivo desta convenção no cálculo das forças resultantes.
 >
 > (Texto)
 
-{: .importante }
+Todas as forças mostradas nesta seção estão alinhas com algum eixo ($$x$$ ou
+$$y$$). Quando uma ou mais forças não estão orientadas para algum eixo, se faz
+necessário fazer a decomposição.
 
-> Note que em alguns dos exemplos anteriores encontramos forças resultantes
-> iguais a zero. Isso quer dizer que, nesses casos, as forças se anulam e o
-> corpo continuaria parado naquela direção. Dizemos, então, que ele está em
-> **equilíbrio estático**.
+{% assign ssi = ssi | plus: 1 %}
 
-Exemplo Prático: Imagine um navio atracado com duas amarras: uma força de 5000 N
-puxando o navio para a direita e outra de 5000 N puxando-o para a esquerda. A
-força resultante é zero, mantendo o navio em equilíbrio translacional.
+## {{ page.UE }}.{{ si }}.{{ ssi }} Decomposição de forças
 
-Quando as forças atuantes no corpo estão nas duas direções ($x$ e $y$), o
-cálculo da força resultante deve ser feito de forma separada. Assim
-encontraremos duas respostas: uma força resultante em $x$ ($F{R_x}$) e outra em
-$y$ ($F{R_y}$). Se uma ou mais forças não estiverem alinhadas com $x$ ou $y$,
-deve-se fazer a decomposição.
+A decomposição de forças é o processo de dividir uma força em componentes
+perpendiculares, geralmente nas direções horizontais e verticais (eixos $$x$$ e
+$$y$$). Isso é útil para simplificar a análise de problemas com forças que atuam
+em diferentes direções.
 
-## Decomposição de forças
+A decomposição é feita em 3 passos:
 
-Quando duas ou mais forças atuam no corpo, A decomposição de forças é o processo
-de dividir uma força em componentes perpendiculares, geralmente em direções
-horizontais e verticais. Isso é útil para simplificar a análise de forças que
-atuam em diferentes direções.
+1. Nomear a força que será decomposta, por exemplo, $$F$$, $$T$$ ou etc.
+2. Identificar qual o ângulo de referência. Se o ângulo não estiver tocando em
+   um dos eixos, deve-se fazer a projeção do ângulo para um dos eixos;
+3. A partir do ângulo, nomear as componentes de interesse. Por exemplo, $$F_x$$
+   e $$F_y$$
+4. A partir do ângulo, decidir qual a componente que recebe seno e qual a
+   componente recebe cosseno.
 
-Exemplo Prático: Imagine que uma máquina a bordo de um navio está sujeita a uma
-força 𝐹 F de 5000 N que atua em um ângulo de 30° em relação à horizontal. O
-oficial de máquinas precisa decompor essa força em componentes horizontal ( 𝐹 𝑥
-F x ​ ) e vertical ( 𝐹 𝑦 F y ​ ).
+{: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-## Equilíbrio de Translação
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+>
+> Imagine que uma máquina a bordo de um navio está sujeita a uma força $$F$$ de
+> $$5\,000\,N$$ que atua em um ângulo de $$30^{\circ}$$ em relação à horizontal
+> (eixo $$x$$). Faça a decomposição desta força.
+
+> **Solução**
+>
+> 
+
+Exemplo Prático: {% assign si = si | plus: 1 %}
+
+## {{ page.UE }}.{{ si }}. Equilíbrio de Translação
 
 O equilíbrio de translação ocorre quando a soma vetorial de todas as forças
 atuando sobre um corpo é zero, resultando em um estado onde o corpo não acelera
