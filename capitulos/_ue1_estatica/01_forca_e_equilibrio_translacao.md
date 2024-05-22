@@ -14,14 +14,13 @@ uei: contador com o numero da U.E.
  si: contador com numero da secao
 ssi: contador com o numero da aubsecao
 -->
-{% assign uei = page.UE %}
 {% assign  si = 0 %}
 {% assign ssi = 0 %}
 {% assign exi = 0 %}
 {% assign fig = 0 %}
 <!-- Fim Conf. Iniciais -->
 
-# {{ uei }}. Força e equilíbrio de translação
+# {{ page.UE }}. Força e equilíbrio de translação
 {: .no_toc }
 
 ## Sumário
@@ -33,7 +32,7 @@ ssi: contador com o numero da aubsecao
 ---
 
 {% assign si = si | plus: 1 %}
-## {{ uei }}.{{ si }}. Definição de força
+## {{ page.UE }}.{{ si }}. Definição de força
 
 Dá-se o nome de força a qualquer interação entre corpos. Quando não
 equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu
@@ -57,7 +56,7 @@ motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem
 particular importância.
 
 {% assign si = si | plus: 1 %}
-## {{ uei }}.{{ si }}. Força Peso
+## {{ page.UE }}.{{ si }}. Força Peso
 
 Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força
 que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_,
@@ -93,7 +92,7 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > Durante um teste de carga um guindaste de bordo suspende uma caixa de 1 Ton (tonelada). Calcule qual o peso da caixa (em Newton) que cabo do guindaste está suportando.
 >
@@ -113,7 +112,7 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 > É importante notar que
 
 {% assign si = si | plus: 1 %}
-## {{ uei }}.{{ si }}. Força de Tração ($$F_T$$)
+## {{ page.UE }}.{{ si }}. Força de Tração ($$F_T$$)
 
 É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do material e, falando de uma forma simples, ela "informa" qual o valor da força que está sendo aplicada sobre a corda (cabo, ou correte, etc.).
 
@@ -122,7 +121,7 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > Qual a força de tração sentida pelo cabo de aço no exemplo 1.01
 >
@@ -131,7 +130,7 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 > O cabo do guindaste está suportando todo o peso da caixa, logo a força de tração nele também é $$10/,000 N$$.
 
 {% assign ssi = ssi | plus: 1 %}
-### {{ uei }}.{{ si }}.{{ ssi }} Carga de trabalho (CT) e Carga de Ruptura (CR)
+### {{ page.UE }}.{{ si }}.{{ ssi }}. Carga de trabalho (CT) e Carga de Ruptura (CR)
 
 A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_ (WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou qualquer equipamento de elevação pode suportar com segurança durante o uso regular. Ela é calculada aplicando um fator de segurança à **Carga de Ruptura (CR)**, que é a carga máxima que o material pode suportar antes de falhar ou romper.
 
@@ -158,7 +157,7 @@ $$
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > Por exemplo, se um cabo de aço tem uma carga de ruptura de $$10$$ toneladas força e um fator de segurança de $$5:1$$, qual deve ser sua carga de trabalho?
 >
@@ -176,7 +175,7 @@ $$
 > $$
 
 {% assign si = si | plus: 1 %}
-## {{ uei }}.{{ si }}. Força de Atrito
+## {{ page.UE }}.{{ si }}. Força de Atrito
 
 É a força que tende a dificultar o movimento de arrastar dois corpos quando suas
 superfícies estiverem em contato físico. De forma mais técnica, diz-se que a
@@ -211,7 +210,7 @@ existir atrito com o chão.
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de
 > metal. Sabendo que o coeficiente de atrito estático máximo entre o piso e a
@@ -291,7 +290,7 @@ existir atrito com o chão.
 
 <!--
 {% assign si = si | plus: 1 %}
-## {{ uei }}.{{ si }}. Força Elástica
+## {{ page.UE }}.{{ si }}. Força Elástica
 
 A força elástica é a força exercida por um material elástico, como uma mola ou
 um elástico, quando ele é deformado. Essa força obedece à Lei de Hooke, que
@@ -307,7 +306,7 @@ componentes.
 
 
 {% assign si = si | plus: 1 %}
-## {{ uei }}.{{ si }}. Força Resultante
+## {{ page.UE }}.{{ si }}. Força Resultante
 
 Ao se aplicar **uma única força** sobre o corpo, a intuição nos diz que o corpo tende a se movimentar para o sentido desta força. O que está correto. contudo e se forem forem aplicadas *mais de uma força*  no mesmo objeto, a análise ficará menos intuitiva. A resposta para esta situação é: nesse caso o movimento do corpo depende da **Força Resultante** entre elas.
 
@@ -345,7 +344,7 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 {% assign  exi = exi | plus: 1 %}
 
 {: .note-title }
-> Exemplo resolvido {{ uei }}.{{ exi }}
+> Exemplo resolvido {{ page.UE }}.{{ exi }}
 >
 > Texto
 
@@ -355,7 +354,7 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
@@ -367,7 +366,7 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
@@ -379,7 +378,7 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
@@ -391,7 +390,7 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
@@ -404,7 +403,7 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
@@ -416,7 +415,7 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 
 {: .exemplo_resolvido-title }
 {% assign exi = exi | plus: 1 %}
-> Exemplo Resolvido {{ uei }}.{{ exi }}
+> Exemplo Resolvido {{ page.UE }}.{{ exi }}
 >
 > (Texto)
 >
