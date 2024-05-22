@@ -2,7 +2,7 @@
 layout: default
 title: Força e equilíbrio de translação
 nav_order: 1
-UE: 1
+CAP: 1
 math: katex
 toc: true
 ---
@@ -20,21 +20,20 @@ ssi: contador com o numero da aubsecao
 
 <!-- Fim Conf. Iniciais -->
 
-# {{ page.UE }}. Força e equilíbrio de translação
+# {{  page.CAP }}. Força e equilíbrio de translação
 
 {: .no_toc }
 
 ## Sumário
 
 {: .no_toc }
-
 -   TOC {: toc }
 
 ---
 
 {% assign si = si | plus: 1 %}
 
-## {{ page.UE }}.{{ si }}. Definição de força
+## {{  page.CAP }}.{{ si }}. Definição de força
 
 Dá-se o nome de força a qualquer interação entre corpos. Quando não
 equilibradas, as forças atuantes no corpo podem deformá-lo ou alterar seu
@@ -62,7 +61,7 @@ particular importância.
 
 {% assign si = si | plus: 1 %}
 
-## {{ page.UE }}.{{ si }}. Força Peso
+## {{  page.CAP }}.{{ si }}. Força Peso
 
 Também conhecido como _Força Gravitacional_ ou _Força da Gravidade_, é a força
 que puxa todos os corpos para o chão. Isaac Newton, em seu trabalho _Principia_,
@@ -103,7 +102,7 @@ uma massa de $$100g$$ (faça as contas).
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > Durante um teste de carga um guindaste de bordo suspende uma caixa de 1 Ton
 > (tonelada). Calcule qual o peso da caixa (em Newton) que cabo do guindaste
@@ -127,7 +126,7 @@ uma massa de $$100g$$ (faça as contas).
 
 {% assign si = si | plus: 1 %}
 
-## {{ page.UE }}.{{ si }}. Força de Tração ($$F_T$$)
+## {{  page.CAP }}.{{ si }}. Força de Tração ($$F_T$$)
 
 É a força a qual uma corda, cabo ou corrente (por exemplo), é submetida quando é
 puxado por forças em suas extremidades. A tração sempre atua ao longo do eixo do
@@ -140,7 +139,7 @@ carga.
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > Qual a força de tração sentida pelo cabo de aço no exemplo 1.01
 >
@@ -151,7 +150,7 @@ carga.
 
 {% assign ssi = ssi | plus: 1 %}
 
-### {{ page.UE }}.{{ si }}.{{ ssi }}. Carga de trabalho (CT) e Carga de Ruptura (CR)
+### {{  page.CAP }}.{{ si }}.{{ ssi }}. Carga de trabalho (CT) e Carga de Ruptura (CR)
 
 A **Carga de Trabalho (CT)**, também conhecida como _Carga de Trabalho Segura_
 (WLL - Working Load Limit), é a máxima carga que um cabo de aço, corrente, ou
@@ -193,7 +192,7 @@ $$
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > Por exemplo, se um cabo de aço tem uma carga de ruptura de $$10$$ toneladas
 > força e um fator de segurança de $$5:1$$, qual deve ser sua carga de trabalho?
@@ -212,7 +211,7 @@ $$
 
 {% assign si = si | plus: 1 %}
 
-## {{ page.UE }}.{{ si }}. Força de Atrito
+## {{  page.CAP }}.{{ si }}. Força de Atrito
 
 É a força que tende a dificultar o movimento de arrastar dois corpos quando suas
 superfícies estiverem em contato físico. De forma mais técnica, diz-se que a
@@ -247,7 +246,7 @@ existir atrito com o chão.
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de
 > metal. Sabendo que o coeficiente de atrito estático máximo entre o piso e a
@@ -327,7 +326,7 @@ existir atrito com o chão.
 
 <!--
 {% assign si = si | plus: 1 %}
-## {{ page.UE }}.{{ si }}. Força Elástica
+## {{  page.CAP }}.{{ si }}. Força Elástica
 
 A força elástica é a força exercida por um material elástico, como uma mola ou
 um elástico, quando ele é deformado. Essa força obedece à Lei de Hooke, que
@@ -343,7 +342,7 @@ componentes.
 
 {% assign si = si | plus: 1 %}
 
-## {{ page.UE }}.{{ si }}. Força Resultante
+## {{  page.CAP }}.{{ si }}. Força Resultante
 
 Ao se aplicar **uma única força** sobre o corpo, a intuição nos diz que o corpo
 tende a se movimentar para o sentido desta força. O que está correto. contudo e
@@ -394,7 +393,7 @@ objetivo desta convenção no cálculo das forças resultantes.
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > (Texto)
 >
@@ -404,7 +403,7 @@ objetivo desta convenção no cálculo das forças resultantes.
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > (Texto)
 >
@@ -414,7 +413,7 @@ objetivo desta convenção no cálculo das forças resultantes.
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > (Texto)
 >
@@ -424,7 +423,7 @@ objetivo desta convenção no cálculo das forças resultantes.
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > (Texto)
 >
@@ -434,7 +433,7 @@ objetivo desta convenção no cálculo das forças resultantes.
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > (Texto)
 >
@@ -444,7 +443,7 @@ objetivo desta convenção no cálculo das forças resultantes.
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > (Texto)
 >
@@ -458,7 +457,7 @@ necessário fazer a decomposição.
 
 {% assign ssi = ssi | plus: 1 %}
 
-## {{ page.UE }}.{{ si }}.{{ ssi }} Decomposição de forças
+## {{  page.CAP }}.{{ si }}.{{ ssi }} Decomposição de forças
 
 A decomposição de forças é o processo de dividir uma força em componentes
 perpendiculares, geralmente nas direções horizontais e verticais (eixos $$x$$ e
@@ -477,7 +476,7 @@ A decomposição é feita em 3 passos:
 
 {: .exemplo_resolvido-title } {% assign exi = exi | plus: 1 %}
 
-> Exemplo Resolvido {{ page.UE }}.{{ exi }}
+> Exemplo Resolvido {{  page.CAP }}.{{ exi }}
 >
 > Imagine que uma máquina a bordo de um navio está sujeita a uma força $$F$$ de
 > $$5\,000\,N$$ que atua em um ângulo de $$30^{\circ}$$ em relação à horizontal
@@ -489,7 +488,7 @@ A decomposição é feita em 3 passos:
 
 Exemplo Prático: {% assign si = si | plus: 1 %}
 
-## {{ page.UE }}.{{ si }}. Equilíbrio de Translação
+## {{  page.CAP }}.{{ si }}. Equilíbrio de Translação
 
 O equilíbrio de translação ocorre quando a soma vetorial de todas as forças
 atuando sobre um corpo é zero, resultando em um estado onde o corpo não acelera
