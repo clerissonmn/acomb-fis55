@@ -2,6 +2,7 @@
 layout: default
 title: Força e equilíbrio de translação
 nav_order: 1
+UE: 1
 math: katex
 toc: true
 ---
@@ -13,10 +14,11 @@ uei: contador com o numero da U.E.
  si: contador com numero da secao
 ssi: contador com o numero da aubsecao
 -->
-{% assign uei = 1 %}
+{% assign uei = page.UE %}
 {% assign  si = 0 %}
 {% assign ssi = 0 %}
 {% assign exi = 0 %}
+{% assign fig = 0 %}
 <!-- Fim Conf. Iniciais -->
 
 # {{ uei }}. Força e equilíbrio de translação
@@ -27,8 +29,6 @@ ssi: contador com o numero da aubsecao
 
 - TOC
 {: toc }
-
-
 
 ---
 
@@ -92,7 +92,8 @@ Então chegamos a conclusão de que $$1N$$ de força equivale a carregar o peso 
 
 
 {: .exemplo_resolvido-title }
-> Exemplo Resolvido 1.01
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > Durante um teste de carga um guindaste de bordo suspende uma caixa de 1 Ton (tonelada). Calcule qual o peso da caixa (em Newton) que cabo do guindaste está suportando.
 >
@@ -120,7 +121,8 @@ Quando um guindaste, por exemplo, é usado para suspender cargas pesadas. A for�
 
 
 {: .exemplo_resolvido-title }
-> Exemplo Resolvido 1.02
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > Qual a força de tração sentida pelo cabo de aço no exemplo 1.01
 >
@@ -155,7 +157,8 @@ $$
 $$
 
 {: .exemplo_resolvido-title }
-> Exemplo Resolvido 1.03
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > Por exemplo, se um cabo de aço tem uma carga de ruptura de $$10$$ toneladas força e um fator de segurança de $$5:1$$, qual deve ser sua carga de trabalho?
 >
@@ -207,8 +210,8 @@ o atrito é importante. Só podemos andar ou um carro só consegue fazer curvas 
 existir atrito com o chão.
 
 {: .exemplo_resolvido-title }
-
-> Exemplo Resolvido 1.05
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > Uma caixa de madeira contém uma máquina de $$100kg$$ e está sobre um piso de
 > metal. Sabendo que o coeficiente de atrito estático máximo entre o piso e a
@@ -351,7 +354,8 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 
 
 {: .exemplo_resolvido-title }
-> Exemplo resolvido 1.06
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > (Texto)
 >
@@ -362,7 +366,8 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 >
 
 {: .exemplo_resolvido-title }
-> Exemplo resolvido 1.07
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > (Texto)
 >
@@ -373,7 +378,8 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 >
 
 {: .exemplo_resolvido-title }
-> Exemplo resolvido 1.08
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > (Texto)
 >
@@ -384,7 +390,8 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 >
 
 {: .exemplo_resolvido-title }
-> Exemplo resolvido 1.09
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > (Texto)
 >
@@ -396,7 +403,8 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 
 
 {: .exemplo_resolvido-title }
-> Exemplo resolvido 1.10
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > (Texto)
 >
@@ -407,7 +415,8 @@ A seguir serão apresentados exemplo para que se possa apreender o uso e o objet
 >
 
 {: .exemplo_resolvido-title }
-> Exemplo resolvido 1.11
+{% assign exi = exi | plus: 1 %}
+> Exemplo Resolvido {{ uei }}.{{ exi }}
 >
 > (Texto)
 >
