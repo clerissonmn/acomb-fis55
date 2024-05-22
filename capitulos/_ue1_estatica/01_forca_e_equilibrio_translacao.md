@@ -28,7 +28,8 @@ ssi: contador com o numero da aubsecao
 
 {: .no_toc }
 
--   TOC {: toc }
+-   TOC
+{: toc }
 
 ---
 
@@ -458,7 +459,7 @@ necessário fazer a decomposição.
 
 {% assign ssi = ssi | plus: 1 %}
 
-## {{ page.UE }}.{{ si }}.{{ ssi }} Decomposição de forças
+### {{ page.UE }}.{{ si }}.{{ ssi }} Decomposição de forças
 
 A decomposição de forças é o processo de dividir uma força em componentes
 perpendiculares, geralmente nas direções horizontais e verticais (eixos $$x$$ e
