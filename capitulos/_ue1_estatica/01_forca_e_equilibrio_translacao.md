@@ -10,12 +10,13 @@ toc: true
 <!--
 Conf. Iniciais
 exi: contor dos exercicios resolvidos
-uei: contador com o numero da U.E.
  si: contador com numero da secao
 ssi: contador com o numero da aubsecao
 -->
 
-{% assign  si = 0 %} {% assign ssi = 0 %} {% assign exi = 0 %}
+{% assign  si = 0 %} 
+{% assign ssi = 0 %} 
+{% assign exi = 0 %}
 {% assign figi = 0 %}
 
 <!-- Fim Conf. Iniciais -->
@@ -41,19 +42,19 @@ comportamento, isto é, seu estado de movimento. É importante ressaltar que nã
 se pode limitar a ideia de força a apenas "esforço físico". Quando o corpo
 humano executa uma força, isso implica em fazer um certo esforço; entretanto, o
 conceito de força é mais abrangente, pois mesmo na ausência de interação humana,
-dois objetos podem exercer força entre si. Por exemplo, uma caixa está
-efetivamente aplicando força (tracionando) no cabo do guindaste que a está
-levantando. Por fim, uma força também pode ser aplicada sem o contato físico. No
-exemplo anterior, a força da gravidade, por sua vez, está aplicando força no
-caixote, já que está puxando o mesmo em direção ao chão.
-
-{: .note }
-
-> No Sistema Internacional (SI) a unidade de medida de força é o Newton (N).
+dois objetos podem exercer força entre si. Por exemplo, o navio consegue flutuar pois a água faz uma força para cima. Por fim, uma força também pode ser aplicada sem o contato físico. A força da gravidade, por exemplo, puxa todos os corpos em direção ao chão sem que possamos ver esta interação.
 
 A força é representada por uma seta chamada _vetor_. O tamanho (ou módulo) deste
 vetor representa o valor da força enquanto que a sua orientação (para onde ele
 aponta) representa a direção da força.
+
+![](fig_vetores.png "Vetores")
+{% assign figi = figi | plus: 1 %}
+**Fig {{ figi }}.** Vetores.
+
+{: .note }
+> No Sistema Internacional (SI) a unidade de medida de força é o Newton (N).
+
 
 Algumas forças são provenientes de situações e agentes específicos e, por esse
 motivo, recebem nomes especiais. A seguir serão descritas aquelas que possuem
