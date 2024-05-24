@@ -67,7 +67,7 @@ page.collection: {{ page.collection }}
 
 
 
-![Vetores]({{ page.dir }}/fig_vetores.svg)
+![Vetores]({{ site.url }}/{{ baseurl.}/_{{ page.collection }}/fig_vetores.svg)
 
 {% assign figi = figi | plus: 1 %}
 **Fig {{ figi }}.** Vetores.
