@@ -2,7 +2,8 @@ title: "[FIS-55] ACOM-B"
 description: "Apostila proprietária e exclusiva de uso do professor Clerisson Nascimento da disciplina física Aplicada 1 do curso ACOM-B"
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: "https://clerissonmn.github.io"
+baseurl: "/acomb-fis55"
 
 #aux_links:
 #    Template Repository: https://github.com/just-the-docs/just-the-docs-template
@@ -17,12 +18,12 @@ toc: true
 collections_dir: capitulos
 collections:
     ue1_estatica:
-        permalink: "/:collection/:path/"
+        permalink: "/:collection/:slug/"
         output: true
         
     ue2_cinematica:
         permalink: "/:collection/:path/"
-        output: true
+        output: false
         
 just_the_docs:
     collections:
