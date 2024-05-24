@@ -49,7 +49,7 @@ A força é representada por uma seta chamada _vetor_. O tamanho (ou módulo) de
 vetor representa o valor da força enquanto que a sua orientação (para onde ele
 aponta) representa a direção da força.
 
-![](fig_vetores.png "Vetores")
+![](./fig_vetores.svg)
 {% assign figi = figi | plus: 1 %}
 **Fig {{ figi }}.** Vetores.
 
