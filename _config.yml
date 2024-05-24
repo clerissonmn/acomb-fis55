@@ -22,8 +22,8 @@ collections:
         output: true
         
     ue2_cinematica:
-        permalink: "/:collection/:path/"
-        output: false
+        permalink: "/:collection/:slug/"
+        output: true
         
 just_the_docs:
     collections:
