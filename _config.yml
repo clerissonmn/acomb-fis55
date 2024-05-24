@@ -18,11 +18,11 @@ toc: true
 collections_dir: capitulos
 collections:
     ue1_estatica:
-        permalink: "/:collection/:slug/"
+        permalink: "/:collection/:title/"
         output: true
         
     ue2_cinematica:
-        permalink: "/:collection/:slug/"
+        permalink: "/:collection/:title/"
         output: true
         
 just_the_docs:
