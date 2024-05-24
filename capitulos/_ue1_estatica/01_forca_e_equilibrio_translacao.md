@@ -65,7 +65,7 @@ site.static_files {{ site.static_files }}
 
 page.collection: {{ page.collection }}
 
-path: {{ baseurl }}/capitulos/_{{ page.collection }}/fig_vetores.svg
+path: {{ site.baseurl }}/capitulos/_{{ page.collection }}/fig_vetores.svg
 
 
 ![Vetores]({{ site.baseurl }}/capitulos/_{{ page.collection }}/fig_vetores.svg)
