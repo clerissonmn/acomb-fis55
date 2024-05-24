@@ -61,6 +61,12 @@ post.dir: {{ post.dir }}
 
 page.dir: {{ page.dir }}
 
+site.static_files {{ site.static_files }}
+
+page.collection: {{ page.collection }}
+
+
+
 ![Vetores]({{ page.dir }}/fig_vetores.svg)
 
 {% assign figi = figi | plus: 1 %}
