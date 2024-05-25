@@ -65,10 +65,10 @@ site.static_files {{ site.static_files }}
 
 page.collection: {{ page.collection }}
 
-path: {{ site.baseurl }}/capitulos/_{{ page.collection }}/fig_vetores.svg
+path: {{ site.baseurl }}/{{ site.collections_dir }}/{{ page.collection }}/fig_vetores.svg
 
 
-![Vetores]({{ site.baseurl }}/capitulos/_{{ page.collection }}/fig_vetores.svg)
+![Vetores]({{ site.baseurl }}/{{ site.collections_dir }}/{{ page.collection }}/fig_vetores.svg)
 
 {% assign figi = figi | plus: 1 %}
 **Fig {{ figi }}.** Vetores.
